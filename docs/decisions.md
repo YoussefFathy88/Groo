@@ -29,6 +29,9 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Scoring | 1 point per check-in, per category. Points never lost. |
 | 2026-10-09 | Leaderboard | In M1 (opt-in). |
 | 2026-10-09 | Group size | Max 50 members. |
+| 2026-10-09 | Freeze week | Week starts Saturday. |
+| 2026-10-09 | Freeze carry-over | No carry-over. Max 1 freeze per week. |
+| 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 
 ## Open: must close before coding (from PRD)
 Grouped by when they block us.
@@ -38,8 +41,7 @@ Grouped by when they block us.
 **Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
 
 **Follow-ups from Batch B**
-- Leaderboard details: period (weekly/all-time), do late logs count, opt-in default.
-- Freeze details: week start day (Sat/Sun/Mon), do unused freezes carry over.
+- Leaderboard period (weekly / all-time). Scope: inside each friends group only.
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode

@@ -61,7 +61,7 @@ Acceptance:
 - Streak rules: `DECIDED` (see docs/decisions.md). The app is forgiving, not strict.
   - Day boundary: local midnight.
   - Timezone: phone's current timezone; store the check-in's local date.
-  - Freeze: 1 free per week, automatic. (Week start + carry-over: `OPEN`)
+  - Freeze: 1 free per week, automatic. Week starts Saturday. No carry-over.
   - Backfill: any past day; repairs the streak; marked "late".
 - All streak logic in pure, unit-tested functions.
 
@@ -77,7 +77,7 @@ Acceptance:
 - Score is per category, not one global score. `DECIDED`
 - Scoring formula: 1 point per check-in, per category. Never lost. `DECIDED`
 - Leaderboards are opt-in. `DECIDED`
-- Leaderboard timing: in M1. `DECIDED`. Details (period, late logs): `OPEN`.
+- Leaderboard timing: in M1, inside each friends group only. `DECIDED`. Late logs count only if logged within 2 days. Period: `OPEN`.
 
 ### 8. Home dashboard
 - One clean screen: today's checklist, streaks, score, group snapshot. `DECIDED`
