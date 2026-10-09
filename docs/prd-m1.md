@@ -28,10 +28,10 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 
 ### 2. Habits
 - **Fixed categories**: shared by all users, designed icons, leaderboard-eligible. `DECIDED`
-  - Starting list: `OPEN` (candidates: Prayer, Quran, Sport/Gym).
+  - Starting list: Prayer, Quran, Sport. `DECIDED`
 - **Custom habits**: user names it, picks an icon from Groo's curated set. No uploads. `DECIDED`
 - Create a habit in 1 short step: name + icon + done. `DECIDED`
-- Habit frequency: `OPEN` (daily only in M1 is simplest).
+- Habit frequency: daily only in M1. `DECIDED`
 
 Acceptance:
 - Adding a habit takes 1 screen, no more than 3 inputs.
@@ -58,26 +58,26 @@ Acceptance:
 
 ### 5. Streaks
 - Per habit: current streak, longest streak, start date. `DECIDED`
-- Streak rules: `OPEN`. Must be decided before coding:
-  - Day boundary: user's local midnight? Or a custom hour (e.g. 4 AM for late sleepers)?
-  - Timezone changes and travel.
-  - Freeze / grace day: allowed? How many?
-  - Backfilling yesterday: allowed?
+- Streak rules: `DECIDED` (see docs/decisions.md). The app is forgiving, not strict.
+  - Day boundary: local midnight.
+  - Timezone: phone's current timezone; store the check-in's local date.
+  - Freeze: 1 free per week, automatic. (Week start + carry-over: `OPEN`)
+  - Backfill: any past day; repairs the streak; marked "late".
 - All streak logic in pure, unit-tested functions.
 
 ### 6. Groups (core differentiator)
 - Create a group, invite friends by link/code, join. `DECIDED`
 - Select which habits are shared with the group. `DECIDED`
-- **Shared streak**: `OPEN`. Is it each member's own streak shown together, or a group streak that needs everyone to check in?
+- **Shared streak**: each member's own streak shown together + "everyone checked in today" celebration. `DECIDED`
 - "Who checked in today" feed. `DECIDED`
 - Encourage a friend (one-tap reaction like a cheer or nudge). `PROPOSED`
-- Group size limit: `OPEN`.
+- Group size limit: 50. `DECIDED`
 
 ### 7. Scoring and ranking
 - Score is per category, not one global score. `DECIDED`
-- Scoring formula: `OPEN`.
+- Scoring formula: 1 point per check-in, per category. Never lost. `DECIDED`
 - Leaderboards are opt-in. `DECIDED`
-- Leaderboard timing: `PROPOSED` move to M1.5 (feed first, ranking later), to keep M1 small and less competitive. Confirm with Joee.
+- Leaderboard timing: in M1. `DECIDED`. Details (period, late logs): `OPEN`.
 
 ### 8. Home dashboard
 - One clean screen: today's checklist, streaks, score, group snapshot. `DECIDED`
@@ -104,7 +104,7 @@ Acceptance:
 - User: id, name, avatar, locale, timezone, created_at
 - Category: id, key, is_fixed, icon, name_i18n
 - Habit: id, user_id, category_id, name, icon, created_at, archived_at
-- CheckIn: id, habit_id, user_id, local_date, created_at
+- CheckIn: id, habit_id, user_id, local_date, created_at, is_late
 - Group: id, name, invite_code, owner_id, created_at
 - GroupMember: group_id, user_id, role, joined_at, show_on_leaderboard
 - GroupHabit: group_id, category_id or habit_id

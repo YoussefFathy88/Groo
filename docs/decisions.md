@@ -18,20 +18,28 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Sign-in | Google + email for M1. Apple added at iOS launch (M4). |
 | 2026-10-09 | Hosting | Cloudflare Workers static assets (replaces Pages, per Cloudflare's own recommendation for new projects). Free plan. |
 | 2026-10-09 | Quality bar | Production quality. Extra setup/installs are fine when they improve quality. |
+| 2026-10-09 | Flexibility | The app is forgiving. Users can return after a break and log what they remember. No "you must log daily" pressure. |
+| 2026-10-09 | Day boundary | Local midnight. |
+| 2026-10-09 | Timezone | Phone's current timezone at check-in. Store the check-in's local date. |
+| 2026-10-09 | Freeze | 1 free freeze per week, applied automatically. |
+| 2026-10-09 | Backfill | Any past day can be logged and repairs the streak. Late logs are marked "late" (stored flag) so a leaderboard can treat them fairly. |
+| 2026-10-09 | Shared streak | Each member's own streak, shown together. Celebrate when everyone checked in today. |
+| 2026-10-09 | Fixed categories | Prayer, Quran, Sport. |
+| 2026-10-09 | Frequency | Daily only in M1. |
+| 2026-10-09 | Scoring | 1 point per check-in, per category. Points never lost. |
+| 2026-10-09 | Leaderboard | In M1 (opt-in). |
+| 2026-10-09 | Group size | Max 50 members. |
 
 ## Open: must close before coding (from PRD)
 Grouped by when they block us.
 
 **Batch A: blocks project setup**: closed 2026-10-09 (see Decided).
 
-**Batch B: blocks core logic**
-5. Streak rules: day boundary, timezone/travel, freeze/grace, backfill
-6. Shared streak meaning: individual streaks shown together, or one group streak
-7. Starting fixed categories (candidates: Prayer, Quran, Sport/Gym)
-8. Habit frequency (daily only in M1?)
-9. Scoring formula
-10. Leaderboard in M1 or M1.5
-11. Group size limit
+**Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
+
+**Follow-ups from Batch B**
+- Leaderboard details: period (weekly/all-time), do late logs count, opt-in default.
+- Freeze details: week start day (Sat/Sun/Mon), do unused freezes carry over.
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode
