@@ -52,8 +52,8 @@ Starts with shared habit streaks. Grows into a simple life organizer (todos, AI 
 
 ## Milestones
 1. **M1: Shared habits and streaks (public beta)**. See docs/prd-m1.md.
-2. **M2: Premium + life tracker**. Simple todo (Today view, push unfinished tasks to tomorrow or Backlog; no Jira/Notion style), AI idea-to-todo chat, weight tracker, Quran study tracker, billing.
-3. **M3: Verified "Tracked" habits**. Photo-proof check-ins first, then health integrations. "Tracked" badge. Official competitions only on verified habits.
+2. **M2: Premium + life tracker**. Simple todo (Today view, push unfinished tasks to tomorrow or Backlog; no Jira/Notion style), AI idea-to-todo chat, weight tracker, Quran study tracker, billing, advanced personal stats (filters, compare habits and periods over months/years).
+3. **M3: Verified "Tracked" habits**. Photo-proof check-ins first, then health integrations. "Tracked" badge. Official competitions only on verified habits. Global leaderboard across all users on fixed categories.
 4. **M4: Store launches**. Google Play, App Store, HealthKit / Health Connect.
 Note: with Expo, M4 is mostly store setup + native integrations, not a rewrite.
 

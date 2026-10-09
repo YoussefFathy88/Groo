@@ -32,6 +32,8 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 - **Custom habits**: user names it, picks an icon from Groo's curated set. No uploads. `DECIDED`
 - Create a habit in 1 short step: name + icon + done. `DECIDED`
 - Habit frequency: daily only in M1. `DECIDED`
+- Daily target: Prayer = 5, Quran = 1, Sport = 1. Custom habits pick 1-10. `DECIDED`
+- Multi-count logging: each tap +1 with a progress ring (3/5); long-press to correct. `DECIDED`
 
 Acceptance:
 - Adding a habit takes 1 screen, no more than 3 inputs.
@@ -103,8 +105,8 @@ Acceptance:
 ## Draft data model (`PROPOSED`, confirm before migrations)
 - User: id, name, avatar, locale, timezone, created_at
 - Category: id, key, is_fixed, icon, name_i18n
-- Habit: id, user_id, category_id, name, icon, created_at, archived_at
-- CheckIn: id, habit_id, user_id, local_date, created_at, is_late
+- Habit: id, user_id, category_id, name, icon, daily_target, created_at, archived_at
+- CheckIn: id, habit_id, user_id, local_date, count, created_at, is_late
 - Group: id, name, invite_code, owner_id, created_at
 - GroupMember: group_id, user_id, role, joined_at, show_on_leaderboard
 - GroupHabit: group_id, category_id or habit_id
@@ -117,7 +119,7 @@ Streaks and scores: computed from CheckIn (or cached). `OPEN`
 3. Check-in celebration (normal + milestone)
 4. Group view (members, today's feed, shared habits)
 5. Create / join group (invite link)
-6. Habit detail (streaks, start date, simple history)
+6. Habit detail (streaks, start date, calendar of done days, monthly consistency %, best streak)
 7. Profile / settings (language, account)
 8. Landing page + waitlist
 

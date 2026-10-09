@@ -33,6 +33,9 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Freeze carry-over | No carry-over. Max 1 freeze per week. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
+| 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |
+| 2026-10-09 | Daily target | Fixed categories have a set target (Prayer = 5, Quran = 1, Sport = 1). Custom habits pick 1-10 at creation. Fixed categories will power a global leaderboard later. |
+| 2026-10-09 | Personal history (M1) | Private, per habit: calendar of done days, monthly consistency %, best streak. Advanced filters and comparisons later (M2). |
 | 2026-10-09 | Unified logging | One place logs all habits (personal + shared). A shared habit is logged once and shows in every group it is shared with. |
 
 ## Open: must close before coding (from PRD)
@@ -43,7 +46,10 @@ Grouped by when they block us.
 **Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
 
 **Follow-ups from Batch B**
-- Multi-count habits (e.g. 5 prayers, 3/5): tap behavior, streak rule, score, target. Personal history scope.
+- Does a partial day (e.g. 1/5) keep the streak?
+- Points for multi-count habits (per unit or per day).
+- Rest days per habit vs one weekly freeze.
+- "Custom templates": confirm meaning (ready-made habit ideas users can pick?).
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode
