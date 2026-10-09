@@ -47,7 +47,7 @@ Starts with shared habit streaks. Grows into a simple life organizer (todos, AI 
 - Decision (2026-10-02): **Expo + Expo Router**, one codebase for web, Android, iOS.
 - Order: web public beta first, then Google Play, then App Store.
 - Backend: Supabase (Postgres + Auth). Free plan during development; Pro plan once real users depend on it (backups, no inactivity pause).
-- Web hosting: Cloudflare Pages (free, commercial use allowed). Static Expo web export. Revisit EAS Hosting if server routes are needed later (e.g. M2 AI chat).
+- Web hosting: Cloudflare Workers static assets (free, commercial use allowed). Static Expo web export. Workers can add server code later (e.g. M2 AI chat). Changed from Pages on 2026-10-09.
 - Not Vercel Hobby: its free plan does not allow commercial use.
 
 ## Milestones

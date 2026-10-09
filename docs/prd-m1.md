@@ -89,7 +89,7 @@ Acceptance:
 ### 10. Landing page + waitlist
 - Public landing page with waitlist, tied to a launch video. `DECIDED`
 - Same Expo project (static route) or separate site: `OPEN`.
-- Hosted on Cloudflare Pages with a custom domain. `DECIDED` (domain itself: `OPEN`).
+- Hosted on Cloudflare Workers (static assets) with a custom domain. `DECIDED` (domain itself: `OPEN`).
 
 ---
 

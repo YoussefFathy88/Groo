@@ -6,7 +6,7 @@ Quality bar: this is production. Extra setup or tools are fine when they improve
 - Expo + Expo Router. One codebase for web, Android, iOS. Web ships first. `DECIDED`
 - TypeScript strict.
 - Backend: Supabase (Postgres + Auth). `DECIDED`. Sign-in: Google + email `DECIDED` (Apple at iOS launch).
-- Web hosting: Cloudflare Pages, static export (`npx expo export -p web`). `DECIDED`. Keep the web build static; ask before adding server routes.
+- Web hosting: Cloudflare Workers static assets, static export (`npx expo export -p web` → `dist/`). `DECIDED`. Keep the web build static; ask before adding server code.
 - Animations: Reanimated. `DECIDED`. Must run on web and native.
 - Styling: NativeWind. `DECIDED`
 - Expo official agent skills (github.com/expo/skills): install at setup. `DECIDED`

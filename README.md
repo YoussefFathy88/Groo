@@ -10,7 +10,7 @@ npm run typecheck && npm run lint && npm test
 ```
 
 ## Stack
-Expo SDK 57 + Expo Router · TypeScript strict · NativeWind 4 · Reanimated 4 · Jest (jest-expo) · Supabase (later) · Cloudflare Pages
+Expo SDK 57 + Expo Router · TypeScript strict · NativeWind 4 · Reanimated 4 · Jest (jest-expo) · Supabase (later) · Cloudflare Workers (static assets)
 
 ## Repo map
 - `src/app/` : screens (Expo Router)

@@ -16,6 +16,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Animations | Reanimated. |
 | 2026-10-09 | Tooling | Install Expo official agent skills. |
 | 2026-10-09 | Sign-in | Google + email for M1. Apple added at iOS launch (M4). |
+| 2026-10-09 | Hosting | Cloudflare Workers static assets (replaces Pages, per Cloudflare's own recommendation for new projects). Free plan. |
 | 2026-10-09 | Quality bar | Production quality. Extra setup/installs are fine when they improve quality. |
 
 ## Open: must close before coding (from PRD)

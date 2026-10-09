@@ -31,7 +31,7 @@ Stack, code, data, and testing rules: `.claude/rules/engineering.md` (auto-loade
 ## Commands
 - `npm run web` : run the app in the browser
 - `npm run typecheck` · `npm run lint` · `npm test` : run all three before saying a task is done
-- `npm run export:web` : static web build into `dist/` (what Cloudflare Pages deploys)
+- `npm run export:web` : static web build into `dist/` (what Cloudflare Workers serves)
 - Add packages with `npx expo install <pkg>` (SDK-matched versions). Ask Joee first.
 
 ## Expo guidance
