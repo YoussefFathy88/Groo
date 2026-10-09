@@ -31,6 +31,7 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
   - Starting list: Prayer, Quran, Sport. `DECIDED`
 - **Custom habits**: user names it, picks an icon from Groo's curated set. No uploads. `DECIDED`
 - Create a habit in 1 short step: name + icon + done. `DECIDED`
+- Habit templates: ready-made habits added in one tap (e.g. "Prayer (5)", "Daily Sport"). `DECIDED`. Starter list: `OPEN`.
 - Habit frequency: daily only in M1. `DECIDED`
 - Daily target: Prayer = 5, Quran = 1, Sport = 1. Custom habits pick 1-10. `DECIDED`
 - Multi-count logging: each tap +1 with a progress ring (3/5); long-press to correct. `DECIDED`
@@ -63,7 +64,8 @@ Acceptance:
 - Streak rules: `DECIDED` (see docs/decisions.md). The app is forgiving, not strict.
   - Day boundary: local midnight.
   - Timezone: phone's current timezone; store the check-in's local date.
-  - Freeze: 1 free per week, automatic. Week starts Saturday. No carry-over.
+  - Rest days: each habit allows 0-3 missed days per week (default 1) without breaking the streak. Week starts Saturday. No carry-over.
+  - Partial day (e.g. 1/5) counts as done for the streak.
   - Backfill: any past day; repairs the streak; marked "late".
 - All streak logic in pure, unit-tested functions.
 
@@ -77,7 +79,7 @@ Acceptance:
 
 ### 7. Scoring and ranking
 - Score is per category, not one global score. `DECIDED`
-- Scoring formula: 1 point per check-in, per category. Never lost. `DECIDED`
+- Scoring formula: 1 point per unit done (3/5 = 3 points), per category. Never lost. `DECIDED`
 - Leaderboards are opt-in. `DECIDED`
 - Leaderboard timing: in M1, inside each friends group only. `DECIDED`. Late logs count only if logged within 2 days. Weekly (resets Saturday) + lifetime "weeks won" per member. `DECIDED`
 
@@ -105,7 +107,7 @@ Acceptance:
 ## Draft data model (`PROPOSED`, confirm before migrations)
 - User: id, name, avatar, locale, timezone, created_at
 - Category: id, key, is_fixed, icon, name_i18n
-- Habit: id, user_id, category_id, name, icon, daily_target, created_at, archived_at
+- Habit: id, user_id, category_id, name, icon, daily_target, rest_days_per_week, created_at, archived_at
 - CheckIn: id, habit_id, user_id, local_date, count, created_at, is_late
 - Group: id, name, invite_code, owner_id, created_at
 - GroupMember: group_id, user_id, role, joined_at, show_on_leaderboard

@@ -21,16 +21,18 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Flexibility | The app is forgiving. Users can return after a break and log what they remember. No "you must log daily" pressure. |
 | 2026-10-09 | Day boundary | Local midnight. |
 | 2026-10-09 | Timezone | Phone's current timezone at check-in. Store the check-in's local date. |
-| 2026-10-09 | Freeze | 1 free freeze per week, applied automatically. |
+| 2026-10-09 | Freeze | ~~1 free freeze per week~~ replaced by "rest days per week" (see below). |
 | 2026-10-09 | Backfill | Any past day can be logged and repairs the streak. Late logs are marked "late" (stored flag) so a leaderboard can treat them fairly. |
 | 2026-10-09 | Shared streak | Each member's own streak, shown together. Celebrate when everyone checked in today. |
 | 2026-10-09 | Fixed categories | Prayer, Quran, Sport. |
 | 2026-10-09 | Frequency | Daily only in M1. |
-| 2026-10-09 | Scoring | 1 point per check-in, per category. Points never lost. |
+| 2026-10-09 | Scoring | 1 point per unit done (3/5 prayers = 3 points), per category. Points never lost. |
 | 2026-10-09 | Leaderboard | In M1 (opt-in). |
 | 2026-10-09 | Group size | Max 50 members. |
-| 2026-10-09 | Freeze week | Week starts Saturday. |
-| 2026-10-09 | Freeze carry-over | No carry-over. Max 1 freeze per week. |
+| 2026-10-09 | Week start | Week starts Saturday (rest days, leaderboard). |
+| 2026-10-09 | Rest days | Each habit has rest days per week: default 1, user picks 0-3. Missing up to that many days in a week does not break the streak. No carry-over. |
+| 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
+| 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
 | 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |
@@ -46,10 +48,7 @@ Grouped by when they block us.
 **Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
 
 **Follow-ups from Batch B**
-- Does a partial day (e.g. 1/5) keep the streak?
-- Points for multi-count habits (per unit or per day).
-- Rest days per habit vs one weekly freeze.
-- "Custom templates": confirm meaning (ready-made habit ideas users can pick?).
+- Habit templates starter list.
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode
