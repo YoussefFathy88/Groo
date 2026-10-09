@@ -1,13 +1,15 @@
 # Engineering rules
 
+Quality bar: this is production. Extra setup or tools are fine when they improve quality. Still ask before adding each new library.
+
 ## Stack
 - Expo + Expo Router. One codebase for web, Android, iOS. Web ships first. `DECIDED`
 - TypeScript strict.
-- Backend: Supabase (Postgres + Auth). `DECIDED`. Sign-in methods: `OPEN`.
+- Backend: Supabase (Postgres + Auth). `DECIDED`. Sign-in: Google + email `DECIDED` (Apple at iOS launch).
 - Web hosting: Cloudflare Pages, static export (`npx expo export -p web`). `DECIDED`. Keep the web build static; ask before adding server routes.
-- Animations: Reanimated. `PROPOSED`, confirm at setup. Must run on web and native.
-- Styling: `OPEN` (proposal: NativeWind). Ask before setup.
-- Expo official agent skills (github.com/expo/skills): install at setup. Ask first.
+- Animations: Reanimated. `DECIDED`. Must run on web and native.
+- Styling: NativeWind. `DECIDED`
+- Expo official agent skills (github.com/expo/skills): install at setup. `DECIDED`
 
 ## UI code
 - Shared screens use React Native components only (no div/span). Web-only code goes in clearly marked web files.

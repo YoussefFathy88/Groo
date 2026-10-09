@@ -22,7 +22,7 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 
 ### 1. Account
 - Backend + auth: Supabase. `DECIDED`
-- Sign-in methods: `OPEN` (Google, Apple, email?).
+- Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch)
 - Profile: display name, avatar (pick from set or initials). `PROPOSED`
 - Language: Arabic default, English available. `DECIDED` (Arabic-first)
 

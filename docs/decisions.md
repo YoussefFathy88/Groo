@@ -12,15 +12,16 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-02 | Language | Arabic-first, RTL from day one. English available. |
 | 2026-10-02 | Logging | One tap = logged. Grid of big widgets. No stats on that screen. |
 | 2026-10-02 | Scoring | Per category, not global. Leaderboards opt-in. |
+| 2026-10-09 | Styling | NativeWind. |
+| 2026-10-09 | Animations | Reanimated. |
+| 2026-10-09 | Tooling | Install Expo official agent skills. |
+| 2026-10-09 | Sign-in | Google + email for M1. Apple added at iOS launch (M4). |
+| 2026-10-09 | Quality bar | Production quality. Extra setup/installs are fine when they improve quality. |
 
 ## Open: must close before coding (from PRD)
 Grouped by when they block us.
 
-**Batch A: blocks project setup**
-1. Styling library (proposal: NativeWind)
-2. Animations: Reanimated (proposed)
-3. Install Expo agent skills (proposed)
-4. Sign-in methods (Google, Apple, email?)
+**Batch A: blocks project setup**: closed 2026-10-09 (see Decided).
 
 **Batch B: blocks core logic**
 5. Streak rules: day boundary, timezone/travel, freeze/grace, backfill
