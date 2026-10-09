@@ -32,6 +32,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Freeze week | Week starts Saturday. |
 | 2026-10-09 | Freeze carry-over | No carry-over. Max 1 freeze per week. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
+| 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
+| 2026-10-09 | Unified logging | One place logs all habits (personal + shared). A shared habit is logged once and shows in every group it is shared with. |
 
 ## Open: must close before coding (from PRD)
 Grouped by when they block us.
@@ -41,7 +43,7 @@ Grouped by when they block us.
 **Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
 
 **Follow-ups from Batch B**
-- Leaderboard period (weekly / all-time). Scope: inside each friends group only.
+- Multi-count habits (e.g. 5 prayers, 3/5): tap behavior, streak rule, score, target. Personal history scope.
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode

@@ -77,7 +77,7 @@ Acceptance:
 - Score is per category, not one global score. `DECIDED`
 - Scoring formula: 1 point per check-in, per category. Never lost. `DECIDED`
 - Leaderboards are opt-in. `DECIDED`
-- Leaderboard timing: in M1, inside each friends group only. `DECIDED`. Late logs count only if logged within 2 days. Period: `OPEN`.
+- Leaderboard timing: in M1, inside each friends group only. `DECIDED`. Late logs count only if logged within 2 days. Weekly (resets Saturday) + lifetime "weeks won" per member. `DECIDED`
 
 ### 8. Home dashboard
 - One clean screen: today's checklist, streaks, score, group snapshot. `DECIDED`
