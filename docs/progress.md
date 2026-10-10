@@ -16,7 +16,8 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 
 ## In progress
 - Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model approved (streaks computed). Avatar = pick from set, no uploads. Avatar style samples shown (https://claude.ai/artifact/RgDaBJrYpMsQ588PcDMWQB): Joee picked A (Avataaars), 20 ready-made avatars in M1.
-- Supabase: publishable key received (public-safe). Still need Project URL + region.
+- Supabase: URL https://rtbwhrcumpewcvkgixca.supabase.co + publishable key received (both public-safe). Cloud session cannot reach *.supabase.co (network policy 403).
+- Asked Joee: how migrations get applied (GitHub Action vs his PC), install supabase-js + async-storage + Supabase agent skills, where public keys live.
 
 ## Next steps
 1. Slice 1 "Before": first migration (show SQL plan, ask first) after Project URL arrives.
@@ -24,7 +25,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
-- Supabase account created 2026-10-10. Need: project URL + publishable (anon) key, region. Never the secret/service_role key. Has Cloudflare. Develops on Windows.
+- Supabase account created 2026-10-10. URL + publishable key received; region unknown (not critical). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
 - Domain: postponed; will pick and link later.
 - Logo: mentioned but never received. Ask again when doing the landing page.
 
