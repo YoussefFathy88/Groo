@@ -16,7 +16,8 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 
 ## In progress
 - First migration `supabase/migrations/20261010120000_personal_core.sql` (profiles, categories, habits, check_ins + RLS). 20 pgTAP tests pass on local Postgres 16 with a stub auth schema; CI runs them on real Supabase.
-- Waiting: Joee adds GitHub secrets SUPABASE_ACCESS_TOKEN + SUPABASE_DB_PASSWORD, then re-run the Database workflow to apply it.
+- BLOCKER: every GitHub Actions run (CI + Database) fails in ~3s with no logs since run #3 (likely account/billing lock, unconfirmed). Asked Joee for a screenshot of the run page.
+- Then: Joee adds GitHub secrets SUPABASE_ACCESS_TOKEN + SUPABASE_DB_PASSWORD, then re-run the Database workflow to apply it.
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 
 ## Next steps
