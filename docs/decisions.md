@@ -57,6 +57,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Add habit flow | Templates: 1 tap. Custom: name + icon + times per day (3 inputs). Sharing with groups is asked right after adding (optional). Rest days default 1, changed on the habit page. |
 | 2026-10-10 | Cheer & nudge | Both in M1. Cheer = one tap on a friend who logged ("عاش!"). Nudge = one tap gentle reminder to a friend who has not logged yet. Max 1 nudge per friend per day. Friendly tone, never shaming. |
 | 2026-10-10 | Group view | Approved as prototyped. Cheer/nudge as designed. Phone: Today + Leaderboard tabs. Desktop: side by side. |
+| 2026-10-10 | i18n library | i18next + react-i18next with expo-localization. |
+| 2026-10-10 | Undo tap | Tap a done habit again (same day) to undo. Multi-count: long-press to correct. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
@@ -77,6 +79,5 @@ Grouped by when they block us.
 - Domain: postponed by Joee (2026-10-10). Based on "Groo"; he will pick and link it later.
 
 ## Proposed (confirm with Joee)
-- Undo a mistaken tap (tap again or undo toast, same day)
 - Profile: display name + avatar from set or initials
 - Draft data model in PRD

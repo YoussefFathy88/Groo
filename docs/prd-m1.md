@@ -45,7 +45,7 @@ Acceptance:
 - Grid of big widgets, one per habit: icon + name + current streak. `DECIDED`
 - **One tap = logged.** No form, no dialog, no extra screen. `DECIDED`
 - Clear done vs not-done state for today. `DECIDED`
-- Undo a mistaken tap: `PROPOSED` (tap again or small undo toast, within the same day).
+- Undo a mistaken tap: tap again, same day. `DECIDED`
 - No stats or history on this screen. `DECIDED`
 
 Acceptance:

@@ -15,10 +15,11 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Screens approved: Home / logging grid, Add habit, Group view. Status table: `docs/designs/screens.md`.
 
 ## In progress
-- Slice 1 "Before" decisions asked to Joee: i18n library, data model, undo tap. Waiting for Supabase URL + publishable key.
+- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model explained in plain words, waiting for approval.
+- Supabase: publishable key received (public-safe). Still need Project URL + region.
 
 ## Next steps
-1. Slice 1 "Before" items: choose i18n library · approve data model · first migration.
+1. Slice 1 "Before" items: approve data model · first migration (ask first).
 2. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
@@ -33,7 +34,6 @@ Other screens are designed at the start of the slice that needs them (see roadma
   Local working copy is temporary; to edit, `read` the artifact first.
 
 ## Still `PROPOSED` (ask before building)
-- Undo a mistaken tap (current prototype: tap a done habit to undo).
 - Profile: display name + avatar (set or initials).
 - Draft data model in `docs/prd-m1.md`.
 
