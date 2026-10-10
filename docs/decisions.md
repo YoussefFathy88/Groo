@@ -52,7 +52,9 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Mascot | None in M1. Flame and confetti carry the fun. |
 | 2026-10-10 | Message tone | Egyptian Arabic + casual English. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
-| 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
+| 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). |
+| 2026-10-10 | Template list | Prayer at masjid x5, Daily Quran, Daily workout, Read 10 pages, Walk 30 min, Drink 8 glasses x8, Morning & evening adhkar x2, Sleep early. Easy to change later (data, not code). |
+| 2026-10-10 | Add habit flow | Templates: 1 tap. Custom: name + icon + times per day (3 inputs). Sharing with groups is asked right after adding (optional). Rest days default 1, changed on the habit page. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
 | 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |
@@ -67,8 +69,6 @@ Grouped by when they block us.
 
 **Batch B: blocks core logic**: closed 2026-10-09 (see Decided).
 
-**Follow-ups from Batch B**
-- Habit templates starter list.
 
 **Batch C**: closed 2026-10-10, except:
 - Domain: postponed by Joee (2026-10-10). Based on "Groo"; he will pick and link it later.

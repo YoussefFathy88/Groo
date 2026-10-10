@@ -31,7 +31,8 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
   - Starting list: Prayer, Quran, Sport. `DECIDED`
 - **Custom habits**: user names it, picks an icon from Groo's curated set. No uploads. `DECIDED`
 - Create a habit in 1 short step: name + icon + done. `DECIDED`
-- Habit templates: ready-made habits added in one tap (e.g. "Prayer (5)", "Daily Sport"). `DECIDED`. Starter list: `OPEN`.
+- Habit templates: ready-made habits added in one tap. Starter list in docs/decisions.md. `DECIDED`
+- After adding a habit: optional one-tap "share with groups". `DECIDED`
 - Habit frequency: daily only in M1. `DECIDED`
 - Daily target: Prayer = 5, Quran = 1, Sport = 1. Custom habits pick 1-10. `DECIDED`
 - Multi-count logging: each tap +1 with a progress ring (3/5); long-press to correct. `DECIDED`
