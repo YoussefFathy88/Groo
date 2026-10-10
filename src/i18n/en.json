@@ -1,6 +1,12 @@
 {
-  "app": { "name": "Groo", "slogan": "Small steps, real growth." },
-  "nav": { "today": "Today", "me": "Me" },
+  "app": {
+    "name": "Groo",
+    "slogan": "Small steps, real growth."
+  },
+  "nav": {
+    "today": "Today",
+    "me": "Me"
+  },
   "today": {
     "title": "Today",
     "emptyTitle": "Let's go!",
@@ -8,6 +14,36 @@
   },
   "me": {
     "title": "Me",
-    "soonBody": "Your name, avatar and language live here. Coming soon."
+    "soonBody": "Your name, avatar and language live here. Coming soon.",
+    "signOut": "Sign out",
+    "signedInAs": "Signed in as"
+  },
+  "signIn": {
+    "title": "Welcome to Groo",
+    "sub": "Small steps, real growth. Sign in and start with your friends.",
+    "emailLabel": "Your email",
+    "invalid": "That email looks incomplete. Check it again.",
+    "send": "Email me a sign-in link",
+    "sending": "Sending...",
+    "noPassword": "No password. We'll email you a link.",
+    "sentTitle": "Check your email!",
+    "sentBody": "We sent a sign-in link to:",
+    "tip": "Open the link on this device. Can't find it? Check spam.",
+    "resend": "Send again",
+    "resent": "Sent again",
+    "change": "Use another email",
+    "errors": {
+      "tooMany": "Too many tries in a row. Wait a bit and try again.",
+      "offline": "No internet right now. Check your connection and try again.",
+      "generic": "Something small went wrong. Try again."
+    },
+    "panelBody": "Log habits with one tap and see your streaks with friends.",
+    "sample": {
+      "prayer": "Prayer at masjid",
+      "quran": "Daily Quran",
+      "sport": "Daily workout",
+      "days_one": "{{n}} day",
+      "days_other": "{{n}} days"
+    }
   }
 }

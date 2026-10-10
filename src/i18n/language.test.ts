@@ -9,8 +9,11 @@ function keys(obj: object, prefix = ''): string[] {
 }
 
 describe('translations', () => {
-  it('Arabic and English have exactly the same keys', () => {
-    expect(keys(en).sort()).toEqual(keys(ar).sort());
+  // Plural forms differ by language (Arabic has zero/one/two/few/many/other), so compare base keys.
+  const base = (list: string[]) => [...new Set(list.map((k) => k.replace(/_(zero|one|two|few|many|other)$/, '')))].sort();
+
+  it('Arabic and English have the same keys', () => {
+    expect(base(keys(en))).toEqual(base(keys(ar)));
   });
 
   it('has no empty strings', () => {
