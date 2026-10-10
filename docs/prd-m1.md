@@ -67,6 +67,10 @@ Acceptance:
   - Rest days: each habit allows 0-3 missed days per week (default 1) without breaking the streak. Week starts Saturday. No carry-over.
   - Partial day (e.g. 1/5) counts as done for the streak.
   - Backfill: any past day; repairs the streak; marked "late".
+- Two streaks per habit `DECIDED`:
+  - Personal streak: private, fully flexible (any past day counts).
+  - Group streak: shown to friends; a day counts only if logged within 2 days.
+  - Revives: 3 per calendar month, offered after a late log, one tap. Saves the group streak only, not points.
 - All streak logic in pure, unit-tested functions.
 
 ### 6. Groups (core differentiator)

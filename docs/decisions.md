@@ -33,6 +33,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Rest days | Each habit has rest days per week: default 1, user picks 0-3. Missing up to that many days in a week does not break the streak. No carry-over. |
 | 2026-10-09 | Rest day in count | A rest day keeps the streak alive but does not add +1. The number = days actually done. |
 | 2026-10-09 | Today before logging | Today shows a gentle "not yet" / at-risk state until logged (never red, never shaming). |
+| 2026-10-10 | Two streaks | Personal streak (private, any past day counts) + group streak (friends see it; a day counts only if logged within 2 days). Rest days apply to both. |
+| 2026-10-10 | Revives | 3 per calendar month (reset on the 1st). After a late log, the app offers "Revive? (N left)"; one tap. A revive saves the group streak only, not leaderboard points. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
 | 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
@@ -51,7 +53,6 @@ Grouped by when they block us.
 
 **Follow-ups from Batch B**
 - Habit templates starter list.
-- Personal vs group streak, 2-day window, 3 revives per month (in discussion).
 
 **Batch C: blocks design and launch**
 12. Brand hex colors, Arabic + Latin font pair, dark mode
