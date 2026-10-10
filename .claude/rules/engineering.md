@@ -17,6 +17,8 @@ Quality bar: this is production. Extra setup or tools are fine when they improve
 - Arabic-first, RTL from day one. Never hardcode left/right; use start/end.
 - All user-facing text goes through i18n keys. No hardcoded strings in components.
 - Touch targets min 48px.
+- Responsive: every screen must work on phone and desktop web. Test at 390px and 1280px wide before saying a UI task is done.
+- Full English version alongside Arabic. Language switch in settings; layout flips RTL/LTR with it.
 
 ## Data
 - Every table has Row Level Security policies, with tests. Group data visible only to group members.

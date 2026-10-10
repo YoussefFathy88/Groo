@@ -38,6 +38,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Leaderboard ties | Everyone tied wins the week. A week with 0 points has no winner. |
 | 2026-10-10 | Joining mid-week | Member competes in the week they joined. |
 | 2026-10-10 | Logs before habit start | Count for the personal streak. |
+| 2026-10-10 | Bilingual | Full Arabic and English versions in M1 (Gen Z and Saudi users often prefer English). Design Arabic first, then English. |
+| 2026-10-10 | Responsive | Every screen works on phone and desktop. Mobile-first, checked at 390px and 1280px. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
 | 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |

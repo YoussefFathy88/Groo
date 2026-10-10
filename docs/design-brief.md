@@ -28,6 +28,8 @@ Before any screen, define and get approval for:
 - If a screen needs explanation, simplify it.
 - RTL first: design every screen in Arabic RTL, then check English LTR.
 - Must work on phone width first, then scale up to web desktop.
+- Responsive is a hard rule: every screen is designed and checked at phone (390px) AND desktop (1280px+). No horizontal scroll, no stretched phone layout on desktop.
+- Bilingual: every screen ships in Arabic (RTL) and English (LTR). Design Arabic first, then check English.
 
 ## Logging grid (most important screen)
 - Grid of big widgets: catchy icon + habit name + current streak.
