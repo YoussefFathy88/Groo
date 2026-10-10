@@ -79,7 +79,7 @@ Acceptance:
 - Select which habits are shared with the group. `DECIDED`
 - **Shared streak**: each member's own streak shown together + "everyone checked in today" celebration. `DECIDED`
 - "Who checked in today" feed. `DECIDED`
-- Encourage a friend (one-tap reaction like a cheer or nudge). `PROPOSED`
+- Cheer (friend logged) and nudge (friend not logged yet), one tap each. Max 1 nudge per friend per day. `DECIDED`
 - Group size limit: 50. `DECIDED`
 
 ### 7. Scoring and ranking
