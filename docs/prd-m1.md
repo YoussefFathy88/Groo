@@ -22,7 +22,7 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 
 ### 1. Account
 - Backend + auth: Supabase. `DECIDED`
-- Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch)
+- Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch). Email = 6-digit code (OTP). `DECIDED`
 - Profile: display name + avatar picked from Groo's set (default: initial). No photo uploads in M1. `DECIDED`
 - Language: Arabic default, English available. `DECIDED` (Arabic-first)
 

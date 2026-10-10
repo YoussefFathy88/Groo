@@ -65,6 +65,9 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Migrations | Applied by Supabase's GitHub integration on push to the production branch (now `claude/keen-ride-3fn08i`, later `main`). GitHub Action only runs pgTAP tests. No secrets needed. (Changed same day: Actions account billing-locked.) |
 | 2026-10-10 | Public keys | Supabase URL + publishable key committed in `.env` (public-safe). Secret key and DB password never in the repo. |
 | 2026-10-10 | Supabase tooling | supabase-js + async-storage installed. Supabase official agent skills installed in `.claude/skills/`. |
+| 2026-10-10 | Email sign-in | 6-digit code by email (OTP). No passwords, no magic links. |
+| 2026-10-10 | Google sign-in | After email sign-in; Joee sets up Google Cloud OAuth with guided steps. |
+| 2026-10-10 | Slice 1 order | App frame (AR/EN, colors, font) → sign-in → add habit → 1-tap logging → celebrations → streaks → go live. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
