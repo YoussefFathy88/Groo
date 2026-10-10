@@ -21,6 +21,7 @@ Goal: Joee signs in, adds habits, logs them in 1 tap, sees streaks. Live on the 
 - [ ] Sign-in: Google + email (Supabase Auth)
 - [ ] Add habit: templates (1 tap) + custom (name, icon, times per day)
 - [ ] Logging grid: 1 tap, multi-count (3/5), done badge, optimistic UI
+- [ ] Day switcher on Today: Yesterday and older days, same 1 tap (late mark). Design first.
 - [ ] Check-in feedback: rotating messages, pop animation, milestone celebration
 - [ ] Streak banner + points (uses `src/lib/`)
 - [ ] Arabic + English, RTL/LTR, language follows phone
@@ -58,7 +59,7 @@ Goal: friends see each other's streaks and push each other.
 - [ ] Custom domain on Cloudflare
 - [ ] Basic analytics for success metrics (D1/D7 retention, active groups, signups) · error tracking (decide tools then)
 - [ ] Beta test with a small group, fix issues
-- [ ] Custom SMTP for auth emails (default Supabase email: 2/hour, team members only). Needs the domain.
+- [ ] Custom SMTP for auth emails, then switch sign-in from email link to 6-digit code (default Supabase email: 2/hour, team members only). Needs the domain.
 - [ ] Public beta launch with Joee's video
 
 ## Rules

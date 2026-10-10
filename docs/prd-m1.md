@@ -22,7 +22,7 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 
 ### 1. Account
 - Backend + auth: Supabase. `DECIDED`
-- Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch). Email = 6-digit code (OTP). `DECIDED`
+- Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch). Email = 6-digit code (OTP) target; email link until custom SMTP (before beta). `DECIDED`
 - Profile: display name + avatar picked from Groo's set (default: initial). No photo uploads in M1. `DECIDED`
 - Language: Arabic default, English available. `DECIDED` (Arabic-first)
 
@@ -47,6 +47,7 @@ Acceptance:
 - Clear done vs not-done state for today. `DECIDED`
 - Undo a mistaken tap: tap again, same day. `DECIDED`
 - No stats or history on this screen. `DECIDED`
+- Day switcher: step back to Yesterday, then older days (label shows the date). Same 1-tap logging, marked late. `DECIDED` 2026-10-10
 
 Acceptance:
 - From app open to logged: max 2 taps.

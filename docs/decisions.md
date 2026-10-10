@@ -65,7 +65,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Migrations | Applied by Supabase's GitHub integration on push to the production branch (now `claude/keen-ride-3fn08i`, later `main`). GitHub Action only runs pgTAP tests. No secrets needed. (Changed same day: Actions account billing-locked.) |
 | 2026-10-10 | Public keys | Supabase URL + publishable key committed in `.env` (public-safe). Secret key and DB password never in the repo. |
 | 2026-10-10 | Supabase tooling | supabase-js + async-storage installed. Supabase official agent skills installed in `.claude/skills/`. |
-| 2026-10-10 | Email sign-in | 6-digit code by email (OTP). No passwords, no magic links. |
+| 2026-10-10 | Email sign-in | Target: 6-digit code (OTP). For now: email link (free plan can't edit templates without custom SMTP). Switch to code when custom SMTP is set before beta. |
+| 2026-10-10 | Log past days from Today | Today screen has a day switcher: go back day by day (Today → Yesterday → then the date). Log past days with the same 1 tap (marked late). Calendar on habit page stays for history (Slice 3). |
 | 2026-10-10 | Google sign-in | After email sign-in; Joee sets up Google Cloud OAuth with guided steps. |
 | 2026-10-10 | Slice 1 order | App frame (AR/EN, colors, font) → sign-in → add habit → 1-tap logging → celebrations → streaks → go live. |
 | 2026-10-10 | Slice 1 tabs | Only Today + Me in Slice 1; Groups tab arrives in Slice 2. No "coming soon" screens. |
