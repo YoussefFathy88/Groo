@@ -74,6 +74,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Sign-in screen | Approved as prototyped (Google button, email link, check-email screen, gentle hints). Real logo replaces the text wordmark. |
 | 2026-10-10 | Brand colors | App green/orange changed to match the logo: green #15A655, orange #EE9603. |
 | 2026-10-10 | Google button | Hidden until Google sign-in works (assumed; Joee can override). |
+| 2026-10-10 | Sign-up wording | One screen for both: "Sign in or create an account". First email creates the account automatically. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |

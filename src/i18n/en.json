@@ -19,13 +19,13 @@
     "signedInAs": "Signed in as"
   },
   "signIn": {
-    "title": "Welcome to Groo",
-    "sub": "Small steps, real growth. Sign in and start with your friends.",
+    "title": "Sign in or create an account",
+    "sub": "Small steps, real growth. New here? We'll create your account right away.",
     "emailLabel": "Your email",
     "invalid": "That email looks incomplete. Check it again.",
     "send": "Email me a sign-in link",
     "sending": "Sending...",
-    "noPassword": "No password. We'll email you a link.",
+    "noPassword": "No password. We'll email you a link. New here? That creates your account.",
     "sentTitle": "Check your email!",
     "sentBody": "We sent a sign-in link to:",
     "tip": "Open the link on this device. Can't find it? Check spam.",
