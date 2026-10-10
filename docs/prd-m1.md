@@ -54,10 +54,10 @@ Acceptance:
 ### 4. Feedback and motivation
 - Every check-in: short funny motivating message + small animation. `DECIDED`
 - Messages rotate, no repeats back to back. `DECIDED`
-- Streak milestones get a bigger celebration. Milestone days: `OPEN` (e.g. 3, 7, 30, 100).
+- Streak milestones get a bigger celebration. Milestone days: 3, 7, 14, 30, 60, 100, 365. `DECIDED`
 - Missed day: encouraging message, never shaming. `DECIDED`
-- Message language/tone: `OPEN` (Egyptian Arabic, MSA, or both).
-- Mascot: `OPEN`.
+- Message language/tone: Egyptian Arabic + casual English. `DECIDED`
+- Mascot: none in M1. `DECIDED`
 
 ### 5. Streaks
 - Per habit: current streak, longest streak, start date. `DECIDED`
@@ -89,14 +89,14 @@ Acceptance:
 
 ### 8. Home dashboard
 - One clean screen: today's checklist, streaks, score, group snapshot. `DECIDED`
-- Open question: is the logging grid the home screen, or a separate tab? `OPEN`
+- The logging grid is the home screen. `DECIDED`
 
 ### 9. Reminders
-- Daily reminder notification: `OPEN`. Not in the original plan, but reminders matter a lot for habit retention. Web push support is limited, native is better. Decide scope.
+- One daily reminder at a user-picked time. `DECIDED`. Web push support is limited; native is better.
 
 ### 10. Landing page + waitlist
 - Public landing page with waitlist, tied to a launch video. `DECIDED`
-- Same Expo project (static route) or separate site: `OPEN`.
+- Same Expo project (static route). `DECIDED`
 - Hosted on Cloudflare Workers (static assets) with a custom domain. `DECIDED` (domain itself: `OPEN`).
 
 ---
