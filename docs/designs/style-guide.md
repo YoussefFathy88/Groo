@@ -9,7 +9,7 @@ Direction 1 "Chunky Play". Live reference: Claude Design canvas "Groo Look Optio
 
 ## Logo
 - Files: `assets/brand/groo-logo.svg` (vector, traced from Joee's `groo-logo-source.png`), `groo-logo.png` (transparent, 1200px). In app: `src/components/Logo.tsx`.
-- Logo colors: green #15A655, orange #EE9603 (slightly different from the app tokens below; alignment asked 2026-10-10).
+- Logo colors = app brand tokens (green #15A655, orange #EE9603). Aligned 2026-10-10.
 - Never mirror the logo in RTL.
 
 ## Type
@@ -19,17 +19,17 @@ Direction 1 "Chunky Play". Live reference: Claude Design canvas "Groo Look Optio
 ## Colors
 | Token | Hex | Use |
 |---|---|---|
-| green | #1E9E57 | brand, done badge, active nav |
+| green | #15A655 | brand, done badge, active nav (matches logo, 2026-10-10) |
 | green-dark | #157A42 | pressed edges, text on green tint |
-| amber | #F5A524 | streak flame, celebrations |
-| amber-dark | #E08600 | amber edges |
+| amber | #EE9603 | streak flame, celebrations (matches logo, 2026-10-10) |
+| amber-dark | #C97C00 | amber edges |
 | ink | #1F2A24 | text |
 | muted | #6B7570 | secondary text |
 | line | #E5E5E5 | card borders |
 | bg | #FFFFFF | screens |
 | streak-banner | #FFF6E0 / border #FFE2A3 | weekly streak banner |
 
-Habit icon colors (icon box only, never the whole card): prayer #1E9E57, quran #1C8CC4, sport #F08A00, reading #7C4DDB, walk #D9437E, sleep #4C5FD5. Soft tint behind the icon when not done; solid color with white icon when done.
+Habit icon colors (icon box only, never the whole card): prayer #15A655, quran #1C8CC4, sport #F08A00, reading #7C4DDB, walk #D9437E, sleep #4C5FD5. Soft tint behind the icon when not done; solid color with white icon when done.
 
 ## Shapes
 - Cards: white, 2px #E5E5E5 border, 6px bottom border (3D "pressable" look), radius 20-22px.
