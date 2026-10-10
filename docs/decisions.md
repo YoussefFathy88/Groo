@@ -35,6 +35,9 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Today before logging | Today shows a gentle "not yet" / at-risk state until logged (never red, never shaming). |
 | 2026-10-10 | Two streaks | Personal streak (private, any past day counts) + group streak (friends see it; a day counts only if logged within 2 days). Rest days apply to both. |
 | 2026-10-10 | Revives | 3 per calendar month (reset on the 1st). After a late log, the app offers "Revive? (N left)"; one tap. A revive saves the group streak only, not leaderboard points. |
+| 2026-10-10 | Leaderboard ties | Everyone tied wins the week. A week with 0 points has no winner. |
+| 2026-10-10 | Joining mid-week | Member competes in the week they joined. |
+| 2026-10-10 | Logs before habit start | Count for the personal streak. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
 | 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
