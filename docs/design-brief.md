@@ -6,6 +6,8 @@ Input for /design in Claude Code (or Claude Design). Approve designs before buil
 - Joyful, gamified, fresh. A supportive friend, not a productivity tool.
 - Duolingo-level energy, own identity. Do not copy Duolingo's mascot, logo, or UI.
 - Motivation first, numbers second.
+- Opening the app must feel exciting, never a boring chore: bright visuals, big icons, playful animations on every tap.
+- Every habit always has an icon (fixed and custom).
 
 ## Brand
 - Palette: green (primary) + amber/yellow (accent, celebrations) + some black (text, contrast).
