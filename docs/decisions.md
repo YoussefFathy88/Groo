@@ -44,7 +44,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Desktop layout | Logging grid in the center, groups panel on the side, nav on the start side. |
 | 2026-10-10 | Visual style | Inspired by Duolingo's energy (own identity, no copying). Every habit always has an icon. Opening the app must feel exciting: bright visuals, fun animations, never boring. |
 | 2026-10-10 | Direction | Direction 1 "Chunky Play": white habit cards with 3D bottom edge, weekly streak banner on top, playful rounded font (Baloo Bhaijaan 2). |
-| 2026-10-10 | Done state | Card stays white. Done = one shared green style (green border + green check badge); the habit's own color appears only in its icon box. No fully colored cards. |
+| 2026-10-10 | Done state | Card stays white. Done = green check badge only (white check on green). No colored border; the habit's own color appears only in its icon box. No fully colored cards. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
 | 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
