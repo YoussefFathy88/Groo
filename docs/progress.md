@@ -15,7 +15,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Screens approved: Home / logging grid, Add habit, Group view. Status table: `docs/designs/screens.md`.
 
 ## In progress
-- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model approved (streaks computed). Avatar = pick from set, no uploads.
+- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model approved (streaks computed). Avatar = pick from set, no uploads. Avatar style samples shown (https://claude.ai/artifact/RgDaBJrYpMsQ588PcDMWQB): A cartoon (Avataaars) vs B sketch (Open Peeps), waiting for pick.
 - Supabase: publishable key received (public-safe). Still need Project URL + region.
 
 ## Next steps
