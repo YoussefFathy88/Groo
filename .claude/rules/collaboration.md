@@ -22,7 +22,7 @@ Decision: <one line>
 ```
 - 2-3 options max. Put the recommended one first.
 - Batch related decisions in one message. Number them so Joee can reply "1A, 2B".
-- After Joee answers: log it in `docs/decisions.md` with the date.
+- After Joee answers: log it in `docs/decisions.md` with the date, and update `docs/progress.md`.
 - Design decisions (look, layout, colors, fonts, motion, flows): never ask from text alone. Show a visual sample or a clickable prototype first (Claude Design canvas), then ask.
 
 ## Response style

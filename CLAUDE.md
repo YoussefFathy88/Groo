@@ -9,6 +9,10 @@ Solo developer: Joee. Launch: public web beta for his Arabic YouTube audience.
 2. **Compact replies.** Short, simple, clear. Answer first. See the response style in the same file.
 3. **Improve the ecosystem.** Spot repeated work and propose a rule or skill. See `.claude/rules/ecosystem.md`
 
+## Where we are (read first)
+@docs/progress.md
+Update `docs/progress.md` at the end of every step (done, in progress, next, waiting on Joee) and commit it.
+
 ## Source of truth
 - @docs/prd-m1.md : what we build now (Milestone 1), acceptance criteria, open decisions
 - @docs/decisions.md : decision log. What is DECIDED, PROPOSED, OPEN
