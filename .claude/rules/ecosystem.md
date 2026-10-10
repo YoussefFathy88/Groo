@@ -23,4 +23,4 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - `pre-commit-review`: typecheck, lint, tests, diff review before commit.
 
 ## Created
-- (none yet)
+- `screen-design` (2026-10-10): every screen as a clickable AR/EN, phone/desktop prototype in the approved style.

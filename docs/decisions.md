@@ -71,7 +71,7 @@ Grouped by when they block us.
 - Habit templates starter list.
 
 **Batch C**: closed 2026-10-10, except:
-- Domain: based on "Groo"; exact domain (TLD) not picked yet. Availability unchecked.
+- Domain: postponed by Joee (2026-10-10). Based on "Groo"; he will pick and link it later.
 
 ## Proposed (confirm with Joee)
 - Undo a mistaken tap (tap again or undo toast, same day)
