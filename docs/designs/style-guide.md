@@ -7,6 +7,11 @@ Direction 1 "Chunky Play". Live reference: Claude Design canvas "Groo Look Optio
 - Duolingo-level energy, own identity. Never copy Duolingo's mascot, logo or UI.
 - Opening the app feels exciting: big icons, playful taps, rotating fun messages, confetti at milestones.
 
+## Logo
+- Files: `assets/brand/groo-logo.svg` (vector, traced from Joee's `groo-logo-source.png`), `groo-logo.png` (transparent, 1200px). In app: `src/components/Logo.tsx`.
+- Logo colors: green #15A655, orange #EE9603 (slightly different from the app tokens below; alignment asked 2026-10-10).
+- Never mirror the logo in RTL.
+
 ## Type
 - Font: Baloo Bhaijaan 2 (Arabic + Latin), weights 500-800.
 - Headings 800, body 600-700. Arabic numerals in Arabic (٣/٥), Western in English.

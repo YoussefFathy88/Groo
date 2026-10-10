@@ -51,7 +51,7 @@ export default function TabsLayout() {
     <TabList style={wide ? styles.sideNav : [styles.bottomNav, { paddingBottom: Math.max(insets.bottom, 8) }]}>
       {wide && (
         <View className="items-start px-3 pb-4">
-          <Logo size={34} />
+          <Logo height={34} />
         </View>
       )}
       {TABS.map((tab) => (

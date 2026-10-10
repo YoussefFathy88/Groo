@@ -21,7 +21,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 
 ## Next steps
-1. Slice 1 step 1 "App frame" DONE: font, colors, AR/EN + RTL, tabs Today/Me (phone bottom, desktop start side). Next: step 2 sign-in (email link for now; code after custom SMTP). Sign-in design approved. Waiting for Joee to upload the real logo to `assets/brand/` on GitHub.
+1. Slice 1 step 1 "App frame" DONE: font, colors, AR/EN + RTL, tabs Today/Me (phone bottom, desktop start side). Next: step 2 sign-in (email link for now; code after custom SMTP). Sign-in design approved. Real logo received, traced to SVG, in app + sign-in canvas. Asked Joee: align app colors to logo colors? Google button visible before it works?
 2. Before Slice 1 goes live: create `main`, switch Supabase production branch to `main`, work via PRs.
 3. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
@@ -29,7 +29,7 @@ Other screens are designed at the start of the slice that needs them (see roadma
 ## Waiting on Joee
 - Supabase account created 2026-10-10. URL + publishable key received; region unknown (not critical). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
 - Domain: postponed; will pick and link later.
-- Logo: Joee uploading to `assets/brand/` (SVG preferred) on branch claude/keen-ride-3fn08i.
+- Logo: received 2026-10-10 (`assets/brand/`). App icon / favicon version still needed (Slice 5).
 
 ## Key links
 - Design canvas (Claude Design artifact): https://claude.ai/artifact/RdTWiwykazLZjU2uBXpUh7

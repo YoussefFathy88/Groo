@@ -15,7 +15,7 @@ export default function Today() {
         <Text accessibilityRole="header" className="font-extrabold text-3xl text-ink">
           {t('today.title')}
         </Text>
-        {showLogo && <Logo size={26} />}
+        {showLogo && <Logo height={26} />}
       </View>
       <View className="items-center gap-2 rounded-3xl border-2 border-b-[6px] border-banner-line bg-banner px-5 py-8">
         <View className="h-16 w-16 items-center justify-center rounded-2xl bg-green">
