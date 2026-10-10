@@ -15,6 +15,7 @@ Solo developer: Joee. Launch: public web beta for his Arabic YouTube audience.
 - `docs/design-brief.md` : brand, UI rules, screens, motion. Read before any UI work.
 - `docs/business.md` : vision, market, pricing, later milestones. Read only for scope/pricing/roadmap.
 - `docs/parking-lot.md` : ideas outside the current milestone.
+- `docs/streak-rules.md` : plain-language streak and points rules. Keep in sync with `src/lib/streaks.ts` and `src/lib/scoring.ts`.
 
 If code and docs disagree, stop and ask. Do not silently follow either one.
 When Joee makes a decision, update `docs/decisions.md` (and the PRD status) in the same change.
