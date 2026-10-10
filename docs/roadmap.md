@@ -17,7 +17,7 @@ Current position: see `docs/progress.md`.
 
 ## Slice 1: Personal core loop (log your own habits)
 Goal: Joee signs in, adds habits, logs them in 1 tap, sees streaks. Live on the web.
-- Before: ~~Supabase account (Joee)~~ done · i18n library choice · data model approval (users, categories, habits, check_ins) · first migration
+- Before: ~~Supabase account~~ · ~~i18n library (i18next)~~ · ~~data model~~ · first migration (written + tested, waiting for GitHub secrets)
 - [ ] Sign-in: Google + email (Supabase Auth)
 - [ ] Add habit: templates (1 tap) + custom (name, icon, times per day)
 - [ ] Logging grid: 1 tap, multi-count (3/5), done badge, optimistic UI

@@ -15,12 +15,12 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Screens approved: Home / logging grid, Add habit, Group view. Status table: `docs/designs/screens.md`.
 
 ## In progress
-- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model approved (streaks computed). Avatar = pick from set, no uploads. Avatar style samples shown (https://claude.ai/artifact/RgDaBJrYpMsQ588PcDMWQB): Joee picked A (Avataaars), 20 ready-made avatars in M1.
-- Supabase: URL https://rtbwhrcumpewcvkgixca.supabase.co + publishable key received (both public-safe). Cloud session cannot reach *.supabase.co (network policy 403).
-- Asked Joee: how migrations get applied (GitHub Action vs his PC), install supabase-js + async-storage + Supabase agent skills, where public keys live.
+- First migration `supabase/migrations/20261010120000_personal_core.sql` (profiles, categories, habits, check_ins + RLS). 20 pgTAP tests pass on local Postgres 16 with a stub auth schema; CI runs them on real Supabase.
+- Waiting: Joee adds GitHub secrets SUPABASE_ACCESS_TOKEN + SUPABASE_DB_PASSWORD, then re-run the Database workflow to apply it.
+- Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 
 ## Next steps
-1. Slice 1 "Before": first migration (show SQL plan, ask first) after Project URL arrives.
+1. Migration live (after secrets) → verify Database workflow green.
 2. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 

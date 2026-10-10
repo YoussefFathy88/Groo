@@ -23,4 +23,5 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - `pre-commit-review`: typecheck, lint, tests, diff review before commit.
 
 ## Created
+- `supabase`, `supabase-postgres-best-practices` (2026-10-10): official Supabase agent skills (installed via `npx skills add supabase/agent-skills`, pinned in `skills-lock.json`).
 - `screen-design` (2026-10-10): every screen as a clickable AR/EN, phone/desktop prototype in the approved style.
