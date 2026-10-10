@@ -68,6 +68,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Email sign-in | 6-digit code by email (OTP). No passwords, no magic links. |
 | 2026-10-10 | Google sign-in | After email sign-in; Joee sets up Google Cloud OAuth with guided steps. |
 | 2026-10-10 | Slice 1 order | App frame (AR/EN, colors, font) → sign-in → add habit → 1-tap logging → celebrations → streaks → go live. |
+| 2026-10-10 | Slice 1 tabs | Only Today + Me in Slice 1; Groups tab arrives in Slice 2. No "coming soon" screens. |
+| 2026-10-10 | App frame packages | i18next, react-i18next, expo-localization, expo-font, @expo-google-fonts/baloo-bhaijaan-2, react-native-svg. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |

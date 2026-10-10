@@ -1,0 +1,13 @@
+{
+  "app": { "name": "Groo", "slogan": "Small steps, real growth." },
+  "nav": { "today": "Today", "me": "Me" },
+  "today": {
+    "title": "Today",
+    "emptyTitle": "Let's go!",
+    "emptyBody": "Soon you'll add your first habit and log it with one tap."
+  },
+  "me": {
+    "title": "Me",
+    "soonBody": "Your name, avatar and language live here. Coming soon."
+  }
+}
