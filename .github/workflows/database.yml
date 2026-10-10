@@ -1,7 +1,8 @@
 name: Database
 
-# Tests every migration on a throwaway local database, then applies it to the
-# live Supabase project. The live step only runs when the secrets are set.
+# Tests every migration on a throwaway local database.
+# Applying to the live database is done by Supabase's GitHub integration
+# (Supabase dashboard: production branch = claude/keen-ride-3fn08i for now).
 on:
   push:
     branches: [main, claude/keen-ride-3fn08i]
@@ -13,9 +14,6 @@ on:
 concurrency:
   group: database-${{ github.ref }}
   cancel-in-progress: false
-
-env:
-  SUPABASE_PROJECT_REF: rtbwhrcumpewcvkgixca
 
 jobs:
   test:
@@ -30,23 +28,3 @@ jobs:
       - run: supabase db start
       - run: supabase test db
 
-  deploy:
-    needs: test
-    if: github.event_name != 'pull_request'
-    runs-on: ubuntu-latest
-    env:
-      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-      SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
-    steps:
-      - uses: actions/checkout@v4
-      - if: env.SUPABASE_ACCESS_TOKEN == '' || env.SUPABASE_DB_PASSWORD == ''
-        run: echo "::warning::Supabase secrets are not set yet, so nothing was applied to the live database."
-      - if: env.SUPABASE_ACCESS_TOKEN != '' && env.SUPABASE_DB_PASSWORD != ''
-        uses: supabase/setup-cli@v1
-        with:
-          version: latest
-      - if: env.SUPABASE_ACCESS_TOKEN != '' && env.SUPABASE_DB_PASSWORD != ''
-        run: |
-          test -f supabase/config.toml || supabase init
-          supabase link --project-ref "$SUPABASE_PROJECT_REF"
-          supabase db push

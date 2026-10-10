@@ -23,7 +23,7 @@ Quality bar: this is production. Extra setup or tools are fine when they improve
 ## Data
 - Every table has Row Level Security policies, with tests. Group data visible only to group members.
 - Schema changes only through Supabase migrations in `supabase/migrations/`, with pgTAP tests in `supabase/tests/database/`. Ask before any migration.
-- Migrations reach the live DB only via the Database GitHub Action (this cloud session cannot reach supabase.co). Before writing SQL, load the `supabase-postgres-best-practices` skill.
+- Migrations reach the live DB only via Supabase's GitHub integration (push to the production branch; tests run in the Database GitHub Action) (this cloud session cannot reach supabase.co). Before writing SQL, load the `supabase-postgres-best-practices` skill.
 - Explicit GRANTs + RLS on every table (new Supabase projects may not expose tables by default).
 
 ## Logic and tests

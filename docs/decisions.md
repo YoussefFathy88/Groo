@@ -62,7 +62,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Profile avatar | Pick from Groo's avatar/icon set. No photo uploads in M1 (simpler, no moderation). Default: initial on a color circle. Photos maybe later. |
 | 2026-10-10 | Avatar style | Cartoon "Avataaars" (DiceBear, free commercial use). M1: 20 ready-made avatars (boys/girls, hijab, curly, beard, skin tones), one tap to pick. Bigger list later. |
 | 2026-10-10 | Data model | Approved (PRD draft). Streaks and points are computed from check-ins, never stored. One check-in row per habit per day. |
-| 2026-10-10 | Migrations | Applied by GitHub Actions (`.github/workflows/database.yml`): test on a local DB first, then push to Supabase. Secrets live only in GitHub. |
+| 2026-10-10 | Migrations | Applied by Supabase's GitHub integration on push to the production branch (now `claude/keen-ride-3fn08i`, later `main`). GitHub Action only runs pgTAP tests. No secrets needed. (Changed same day: Actions account billing-locked.) |
 | 2026-10-10 | Public keys | Supabase URL + publishable key committed in `.env` (public-safe). Secret key and DB password never in the repo. |
 | 2026-10-10 | Supabase tooling | supabase-js + async-storage installed. Supabase official agent skills installed in `.claude/skills/`. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
