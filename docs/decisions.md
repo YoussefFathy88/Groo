@@ -45,6 +45,12 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Visual style | Inspired by Duolingo's energy (own identity, no copying). Every habit always has an icon. Opening the app must feel exciting: bright visuals, fun animations, never boring. |
 | 2026-10-10 | Direction | Direction 1 "Chunky Play": white habit cards with 3D bottom edge, weekly streak banner on top, playful rounded font (Baloo Bhaijaan 2). |
 | 2026-10-10 | Done state | Card stays white. Done = green check badge only (white check on green). No colored border; the habit's own color appears only in its icon box. No fully colored cards. |
+| 2026-10-10 | Reminders | One daily reminder at a user-picked time in M1 (web push is weaker than native). |
+| 2026-10-10 | Landing page | Inside the same Expo project (static route). |
+| 2026-10-10 | Dark mode | Light only in M1; code stays theme-ready. |
+| 2026-10-10 | Milestones | Big celebration at 3, 7, 14, 30, 60, 100, 365 days. |
+| 2026-10-10 | Mascot | None in M1. Flame and confetti carry the fun. |
+| 2026-10-10 | Message tone | Egyptian Arabic + casual English. |
 | 2026-10-09 | Partial day | Any progress (e.g. 1/5) counts as a done day for the streak. |
 | 2026-10-09 | Habit templates | Ready-made habits users add in one tap (e.g. "Prayer (5)", "Daily Sport"). Starter list: `OPEN`. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
@@ -64,13 +70,8 @@ Grouped by when they block us.
 **Follow-ups from Batch B**
 - Habit templates starter list.
 
-**Batch C: blocks design and launch**
-12. Brand hex colors, Arabic + Latin font pair, dark mode
-13. Message tone (Egyptian Arabic, MSA, both) + mascot
-14. Milestone days (e.g. 3, 7, 30, 100)
-15. Reminders in M1?
-16. Landing page inside Expo or separate site
-17. Domain name
+**Batch C**: closed 2026-10-10, except:
+- Domain: based on "Groo"; exact domain (TLD) not picked yet. Availability unchecked.
 
 ## Proposed (confirm with Joee)
 - Undo a mistaken tap (tap again or undo toast, same day)
