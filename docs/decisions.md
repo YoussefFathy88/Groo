@@ -7,7 +7,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | Date | Area | Decision |
 |---|---|---|
 | 2026-10-02 | Platform | Expo + Expo Router, one codebase. Web first, then Google Play, then App Store. |
-| 2026-10-02 | Backend | Supabase (Postgres + Auth). Free plan in dev, Pro when real users depend on it. |
+| 2026-10-02 | Backend | Supabase (Postgres + Auth). ~~Free plan in dev, Pro when real users depend on it.~~ Plan timing replaced (see "Supabase plan" below). |
 | 2026-10-02 | Hosting | Cloudflare Pages, static Expo web export. Not Vercel Hobby (no commercial use). |
 | 2026-10-02 | Language | Arabic-first, RTL from day one. English available. |
 | 2026-10-02 | Logging | One tap = logged. Grid of big widgets. No stats on that screen. |
@@ -39,6 +39,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Daily target | Fixed categories have a set target (Prayer = 5, Quran = 1, Sport = 1). Custom habits pick 1-10 at creation. Fixed categories will power a global leaderboard later. |
 | 2026-10-09 | Personal history (M1) | Private, per habit: calendar of done days, monthly consistency %, best streak. Advanced filters and comparisons later (M2). |
 | 2026-10-09 | Unified logging | One place logs all habits (personal + shared). A shared habit is logged once and shows in every group it is shared with. |
+| 2026-10-10 | Supabase plan | Public beta runs on the Free plan. Upgrade to Pro before the launch video. |
+| 2026-10-10 | Backups | Free plan has no automatic backups, so we export the database daily with the Supabase CLI (`db dump`) from a background job on Joee's laptop, kept off-site. |
 
 ## Open: must close before coding (from PRD)
 Grouped by when they block us.
