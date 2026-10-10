@@ -60,6 +60,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | i18n library | i18next + react-i18next with expo-localization. |
 | 2026-10-10 | Undo tap | Tap a done habit again (same day) to undo. Multi-count: long-press to correct. |
 | 2026-10-10 | Profile avatar | Pick from Groo's avatar/icon set. No photo uploads in M1 (simpler, no moderation). Default: initial on a color circle. Photos maybe later. |
+| 2026-10-10 | Avatar style | Cartoon "Avataaars" (DiceBear, free commercial use). M1: 20 ready-made avatars (boys/girls, hijab, curly, beard, skin tones), one tap to pick. Bigger list later. |
 | 2026-10-10 | Data model | Approved (PRD draft). Streaks and points are computed from check-ins, never stored. One check-in row per habit per day. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
