@@ -11,6 +11,7 @@ Solo developer: Joee. Launch: public web beta for his Arabic YouTube audience.
 
 ## Where we are (read first)
 @docs/progress.md
+Plan: `docs/roadmap.md` (M1 as vertical slices). Follow it; propose changes, never skip silently.
 Update `docs/progress.md` at the end of every step (done, in progress, next, waiting on Joee) and commit it.
 
 ## Source of truth

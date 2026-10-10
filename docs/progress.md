@@ -3,7 +3,8 @@
 Last updated: 2026-10-10 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
 
 ## Where we are
-Phase: **Design** (screen-by-screen clickable prototypes) before building real screens in code.
+Plan: `docs/roadmap.md` (vertical slices, decided 2026-10-10).
+Now: **end of Phase 0** (Group view design in review) → next **Slice 1: personal core loop**.
 
 ## Done
 - Docs + Claude Code setup: `CLAUDE.md`, `.claude/rules/` (collaboration, ecosystem, engineering), skill `screen-design`.
@@ -19,9 +20,9 @@ Phase: **Design** (screen-by-screen clickable prototypes) before building real s
 
 ## Next steps
 1. Finish Group view (feedback → approve → log).
-2. Design remaining screens with the `screen-design` skill: Create/join group, Habit detail, Profile/settings, Landing + waitlist, Check-in celebration (polish).
-3. Joee creates a free Supabase account → propose data model + migrations (ask first) → build screens in code as vertical slices.
-4. Deploy web to Cloudflare Workers (Joee connects the repo in his Cloudflare dashboard; guide him step by step).
+2. Slice 1 "Before" items: Joee creates Supabase account · choose i18n library · approve data model · first migration.
+3. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
+Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
 - Supabase account (not created yet). Has Cloudflare account. Develops on Windows.

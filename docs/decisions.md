@@ -56,6 +56,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Template list | Prayer at masjid x5, Daily Quran, Daily workout, Read 10 pages, Walk 30 min, Drink 8 glasses x8, Morning & evening adhkar x2, Sleep early. Easy to change later (data, not code). |
 | 2026-10-10 | Add habit flow | Templates: 1 tap. Custom: name + icon + times per day (3 inputs). Sharing with groups is asked right after adding (optional). Rest days default 1, changed on the habit page. |
 | 2026-10-10 | Cheer & nudge | Both in M1. Cheer = one tap on a friend who logged ("عاش!"). Nudge = one tap gentle reminder to a friend who has not logged yet. Max 1 nudge per friend per day. Friendly tone, never shaming. |
+| 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
 | 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |

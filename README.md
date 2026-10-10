@@ -19,6 +19,7 @@ Expo SDK 57 + Expo Router · TypeScript strict · NativeWind 4 · Reanimated 4 �
 - `.claude/rules/` : collaboration, ecosystem, engineering rules (auto-loaded)
 - `.claude/skills/` : project skills (added over time)
 - `docs/progress.md` : where we are now (auto-loaded every session)
+- `docs/roadmap.md` : M1 plan as vertical slices
 - `docs/prd-m1.md` : Milestone 1 scope
 - `docs/decisions.md` : decision log
 - `docs/design-brief.md` : brand and UI
