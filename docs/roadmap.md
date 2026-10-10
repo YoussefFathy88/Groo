@@ -6,18 +6,18 @@ A slice is done only when it works on the live web app, phone + desktop, Arabic 
 
 Current position: see `docs/progress.md`.
 
-## Phase 0: Foundations ✅
+## Phase 0: Foundations ✅ (done 2026-10-10)
 - [x] Docs, rules, `screen-design` skill
 - [x] All product decisions (`docs/decisions.md`)
 - [x] Expo app scaffold + CI
 - [x] Streak + points logic with tests (`src/lib/`)
 - [x] Visual style (`docs/designs/style-guide.md`)
 - [x] Designs approved: Home / logging grid, Add habit
-- [ ] Group view design approved (in review)
+- [x] Group view design approved
 
 ## Slice 1: Personal core loop (log your own habits)
 Goal: Joee signs in, adds habits, logs them in 1 tap, sees streaks. Live on the web.
-- Before: Supabase account (Joee) · i18n library choice · data model approval (users, categories, habits, check_ins) · first migration
+- Before: ~~Supabase account (Joee)~~ done · i18n library choice · data model approval (users, categories, habits, check_ins) · first migration
 - [ ] Sign-in: Google + email (Supabase Auth)
 - [ ] Add habit: templates (1 tap) + custom (name, icon, times per day)
 - [ ] Logging grid: 1 tap, multi-count (3/5), done badge, optimistic UI

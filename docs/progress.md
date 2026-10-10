@@ -4,7 +4,7 @@ Last updated: 2026-10-10 · Branch: `claude/keen-ride-3fn08i` · Keep this file 
 
 ## Where we are
 Plan: `docs/roadmap.md` (vertical slices, decided 2026-10-10).
-Now: **end of Phase 0** (Group view design in review) → next **Slice 1: personal core loop**.
+Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 
 ## Done
 - Docs + Claude Code setup: `CLAUDE.md`, `.claude/rules/` (collaboration, ecosystem, engineering), skill `screen-design`.
@@ -12,20 +12,18 @@ Now: **end of Phase 0** (Group view design in review) → next **Slice 1: person
 - Expo SDK 57 app scaffold: NativeWind 4, Reanimated 4, TypeScript strict, ESLint, Jest, GitHub Actions CI.
 - Streak + points logic with 47 passing tests: `src/lib/{dates,streaks,scoring}.ts`. Plain rules: `docs/streak-rules.md`.
 - Look chosen: Direction 1 "Chunky Play" → `docs/designs/style-guide.md`.
-- Screens approved: Home / logging grid, Add habit. Status table: `docs/designs/screens.md`.
+- Screens approved: Home / logging grid, Add habit, Group view. Status table: `docs/designs/screens.md`.
 
 ## In progress
-- **Group view** prototype (feed, cheer/nudge, weekly leaderboard) published, waiting for Joee's feedback.
-  Open questions to Joee: (1) does cheer/nudge feel right, (2) Today + Leaderboard as 2 tabs or one scrolling page, (3) other changes.
+- Slice 1 "Before" decisions asked to Joee: i18n library, data model, undo tap. Waiting for Supabase URL + publishable key.
 
 ## Next steps
-1. Finish Group view (feedback → approve → log).
-2. Slice 1 "Before" items: Joee creates Supabase account · choose i18n library · approve data model · first migration.
-3. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
+1. Slice 1 "Before" items: choose i18n library · approve data model · first migration.
+2. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
-- Supabase account (not created yet). Has Cloudflare account. Develops on Windows.
+- Supabase account created 2026-10-10. Need: project URL + publishable (anon) key, region. Never the secret/service_role key. Has Cloudflare. Develops on Windows.
 - Domain: postponed; will pick and link later.
 - Logo: mentioned but never received. Ask again when doing the landing page.
 
