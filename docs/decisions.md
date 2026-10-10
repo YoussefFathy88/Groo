@@ -59,6 +59,8 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-10 | Group view | Approved as prototyped. Cheer/nudge as designed. Phone: Today + Leaderboard tabs. Desktop: side by side. |
 | 2026-10-10 | i18n library | i18next + react-i18next with expo-localization. |
 | 2026-10-10 | Undo tap | Tap a done habit again (same day) to undo. Multi-count: long-press to correct. |
+| 2026-10-10 | Profile avatar | Pick from Groo's avatar/icon set. No photo uploads in M1 (simpler, no moderation). Default: initial on a color circle. Photos maybe later. |
+| 2026-10-10 | Data model | Approved (PRD draft). Streaks and points are computed from check-ins, never stored. One check-in row per habit per day. |
 | 2026-10-10 | Build approach | Vertical slices (see docs/roadmap.md). Each slice: design → approve → data → code → tests → live deploy. |
 | 2026-10-09 | Late logs on leaderboard | Count only if logged within 2 days of the day. |
 | 2026-10-09 | Leaderboard period | Weekly, inside each group, resets Saturday. Plus a lifetime "weeks won" count per member since joining the group. |
@@ -79,5 +81,4 @@ Grouped by when they block us.
 - Domain: postponed by Joee (2026-10-10). Based on "Groo"; he will pick and link it later.
 
 ## Proposed (confirm with Joee)
-- Profile: display name + avatar from set or initials
-- Draft data model in PRD
+- (none)

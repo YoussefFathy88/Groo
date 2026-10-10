@@ -5,3 +5,4 @@ Format: `- <date> <idea> (source, suggested milestone)`
 
 - 2026-10-09 Advanced personal stats: filters, compare habits and periods over months/years (Joee, M2)
 - 2026-10-09 Global leaderboard across all users on fixed categories (Joee, M3 with verified habits)
+- Profile photo uploads (M1 uses an avatar set). Would use Supabase Storage (1 GB free, separate from the 500 MB database).

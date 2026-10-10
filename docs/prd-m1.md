@@ -23,7 +23,7 @@ Web first (Expo web). Code must also run on Android and iOS without UI rewrites.
 ### 1. Account
 - Backend + auth: Supabase. `DECIDED`
 - Sign-in methods: Google + email. `DECIDED` (Apple at iOS launch)
-- Profile: display name, avatar (pick from set or initials). `PROPOSED`
+- Profile: display name + avatar picked from Groo's set (default: initial). No photo uploads in M1. `DECIDED`
 - Language: Arabic default, English available. `DECIDED` (Arabic-first)
 
 ### 2. Habits
@@ -109,7 +109,7 @@ Acceptance:
 - Health integrations, store releases (M4)
 - Icon uploads, themes, complex stats
 
-## Draft data model (`PROPOSED`, confirm before migrations)
+## Data model (`DECIDED` 2026-10-10)
 - User: id, name, avatar, locale, timezone, created_at
 - Category: id, key, is_fixed, icon, name_i18n
 - Habit: id, user_id, category_id, name, icon, daily_target, rest_days_per_week, created_at, archived_at
@@ -118,7 +118,7 @@ Acceptance:
 - GroupMember: group_id, user_id, role, joined_at, show_on_leaderboard
 - GroupHabit: group_id, category_id or habit_id
 - Reaction: id, from_user, to_user, checkin_id, type
-Streaks and scores: computed from CheckIn (or cached). `OPEN`
+Streaks and scores: computed from CheckIn, never stored. `DECIDED`. One CheckIn per habit per day (unique habit_id + local_date). avatar = key from Groo's set.
 
 ## Screen list (for /design)
 1. Logging grid (home or tab)

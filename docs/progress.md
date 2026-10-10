@@ -15,11 +15,11 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Screens approved: Home / logging grid, Add habit, Group view. Status table: `docs/designs/screens.md`.
 
 ## In progress
-- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model explained in plain words, waiting for approval.
+- Slice 1 "Before": i18n (i18next) and undo (tap again) decided. Data model approved (streaks computed). Avatar = pick from set, no uploads.
 - Supabase: publishable key received (public-safe). Still need Project URL + region.
 
 ## Next steps
-1. Slice 1 "Before" items: approve data model · first migration (ask first).
+1. Slice 1 "Before": first migration (show SQL plan, ask first) after Project URL arrives.
 2. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
@@ -34,8 +34,7 @@ Other screens are designed at the start of the slice that needs them (see roadma
   Local working copy is temporary; to edit, `read` the artifact first.
 
 ## Still `PROPOSED` (ask before building)
-- Profile: display name + avatar (set or initials).
-- Draft data model in `docs/prd-m1.md`.
+- None right now.
 
 ## Working with Joee (reminders)
 - Compact, simple replies. Decide together with options + recommendation. Design decisions only with a visual/prototype.
