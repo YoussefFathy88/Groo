@@ -17,12 +17,13 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 ## In progress
 - First migration `supabase/migrations/20261010120000_personal_core.sql` (profiles, categories, habits, check_ins + RLS). 20 pgTAP tests pass on local Postgres 16 with a stub auth schema; CI runs them on real Supabase.
 - GitHub Actions: account locked due to a billing issue (confirmed). Joee to fix in GitHub Billing or contact GitHub Support. CI + DB tests don't run until then.
-- Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`). Waiting for Joee to confirm tables appear in Table Editor.
+- Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`, enabled 2026-10-10). Waiting for Joee to confirm tables appear in Table Editor.
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 
 ## Next steps
 1. Confirm migration is live (Table Editor shows profiles, categories, habits, check_ins).
-2. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
+2. Before Slice 1 goes live: create `main`, switch Supabase production branch to `main`, work via PRs.
+3. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
