@@ -1,6 +1,6 @@
 # Groo: Progress (read first, every session)
 
-Last updated: 2026-10-10 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
+Last updated: 2026-10-11 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
 
 ## Where we are
 Plan: `docs/roadmap.md` (vertical slices, decided 2026-10-10).
@@ -22,8 +22,9 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 
 ## Next steps
 1. Slice 1 steps 1-2 DONE: app frame + email-link sign-in (route guard, sign out on Me). Waiting: Joee sets Supabase URL config + tests sign-in locally. Next: step 3 add habit.
-2. Before Slice 1 goes live: create `main`, switch Supabase production branch to `main`, work via PRs.
-3. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
+2. Gate before first audience test (roadmap): domain, Brevo (300/day free), 6-digit code, Google sign-in.
+3. Before Slice 1 goes live: create `main`, switch Supabase production branch to `main`, work via PRs.
+4. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
