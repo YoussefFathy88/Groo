@@ -29,6 +29,16 @@ Goal: Joee signs in, adds habits, logs them in 1 tap, sees streaks. Live on the 
 - [ ] Deploy to Cloudflare Workers (static web)
 - Done when: works live on phone + laptop, typecheck/lint/tests green, Joee approves.
 
+## Gate: before the first audience test (decided 2026-10-11)
+Nobody outside the team tests until these are done. All free except the domain (~$10/year).
+- [ ] Domain: pick + buy (Cloudflare Registrar, at-cost) · Joee
+- [ ] Email sender: Brevo free plan (300 emails/day, no card) · domain verified (SPF/DKIM) so mail is not spam
+- [ ] Supabase SMTP settings → Brevo · raise Auth email rate limit (default 30/hour after custom SMTP)
+- [ ] Switch email sign-in from link to 6-digit code (edit Magic Link + Confirm signup templates)
+- [ ] Google sign-in (Google Cloud OAuth, free) so most users need no email at all
+- [ ] Site URL + redirect URLs set to the real domain
+- Done when: 10 friends can sign up in the same hour without hitting a limit.
+
 ## Slice 2: Groups (the core differentiator)
 Goal: friends see each other's streaks and push each other.
 - Before: design Create/join group · group tables + RLS (members-only access)
