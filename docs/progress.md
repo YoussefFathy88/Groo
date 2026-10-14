@@ -34,7 +34,7 @@ Other screens are designed at the start of the slice that needs them (see roadma
 
 ## Key links
 - Design canvas (Claude Design artifact): https://claude.ai/artifact/RdTWiwykazLZjU2uBXpUh7
-  Pages: Options (palettes/fonts/directions), Prototype (home), Add habit, Group view.
+  Pages: Options, Prototype (home), Add habit, Group view, Sign in, Design journey (12-step story of the design process, for Joee's content).
   Local working copy is temporary; to edit, `read` the artifact first.
 
 ## Still `PROPOSED` (ask before building)
