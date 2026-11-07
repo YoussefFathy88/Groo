@@ -29,7 +29,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
-- Supabase account created 2026-10-10. URL + publishable key received; region eu-central-1 (Frankfurt). Free plan pauses after ~7 idle days (found paused 2026-11-07). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
+- Supabase account created 2026-10-10. URL + publishable key received; region eu-central-1 (Frankfurt). Free plan pauses after ~7 idle days (found paused 2026-11-07, restored same day: 4 tables + 3 categories intact, RLS on). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
 - Domain: postponed; will pick and link later.
 - Logo: received 2026-10-10 (`assets/brand/`). App icon / favicon version still needed (Slice 5).
 
