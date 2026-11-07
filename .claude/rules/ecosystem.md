@@ -37,4 +37,6 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - `playwright`: `@playwright/mcp` pinned (0.0.84), uses installed Chrome. Drive the app for UI tests. If "failed to connect", restart the session.
 - `cloudflare`: Cloudflare API MCP. For the Workers deploy step and checking it. Needs one-time OAuth.
 - Built-in browser pane (Claude desktop app): fallback for visual checks.
-- Later: Expo MCP (`https://mcp.expo.dev/mcp`) when we do Android/iOS builds (needs Expo account; local tools need `expo-mcp` dev package, ask first).
+- Expo MCP (connected by Joee 2026-11-07, account-level): docs, EAS builds, store data. Local tools (screenshots, taps) need the `expo-mcp` dev package, ask first. Sandbox/simulator tools are billed: never start them without asking.
+- Supabase claude.ai connector (connected by Joee 2026-11-07, account-level): **full access** (migrations, pause, delete branch). Use only read tools (`list_tables`, `get_advisors`, `get_logs`, `search_docs`, `execute_sql` for SELECT). Any write: ask Joee first. Schema still only via migrations + GitHub.
+- If Supabase says "database not accessible": check `get_project`. `INACTIVE` = free plan paused after ~7 idle days. Ask Joee before restoring.

@@ -19,7 +19,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - GitHub Actions: account locked due to a billing issue (confirmed). Joee to fix in GitHub Billing or contact GitHub Support. CI + DB tests don't run until then.
 - Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`, enabled 2026-10-10). **Live: 4 tables + 3 categories confirmed by Joee 2026-10-10.**
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
-- Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Project `.mcp.json`: Supabase (read-only, project-scoped), Playwright, Cloudflare. Supabase + Cloudflare need one-time OAuth by Joee. Rule added to recommend rules/skills/MCPs proactively.
+- Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Project `.mcp.json`: Supabase (read-only, project-scoped), Playwright, Cloudflare. Supabase + Cloudflare need one-time OAuth by Joee. Joee also connected Expo MCP + Supabase connector (account-level, both working). Rule added to recommend rules/skills/MCPs proactively.
 
 ## Next steps
 1. Slice 1 steps 1-2 DONE: app frame + email-link sign-in (route guard, sign out on Me). Waiting: Joee sets Supabase URL config + tests sign-in locally. Next: step 3 add habit.
@@ -29,7 +29,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 Other screens are designed at the start of the slice that needs them (see roadmap).
 
 ## Waiting on Joee
-- Supabase account created 2026-10-10. URL + publishable key received; region unknown (not critical). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
+- Supabase account created 2026-10-10. URL + publishable key received; region eu-central-1 (Frankfurt). Free plan pauses after ~7 idle days (found paused 2026-11-07). Never the secret/service_role key. Has Cloudflare. Develops on Windows.
 - Domain: postponed; will pick and link later.
 - Logo: received 2026-10-10 (`assets/brand/`). App icon / favicon version still needed (Slice 5).
 
