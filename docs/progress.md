@@ -20,7 +20,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`, enabled 2026-10-10). **Live: 4 tables + 3 categories confirmed by Joee 2026-10-10.**
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 - Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Project `.mcp.json`: Supabase (read-only, project-scoped), Playwright, Cloudflare. Supabase + Cloudflare need one-time OAuth by Joee. Joee also connected Expo MCP + Supabase connector (account-level, both working). Rule added to recommend rules/skills/MCPs proactively.
-- Supabase CLI 3.0.0 installed 2026-11-07 as a dev dependency (`npx supabase`). Live DB checked same day via connector: active, 4 tables RLS on, 3 categories. Local stack not started yet: needs Docker Desktop running + `supabase/config.toml` (`supabase init`).
+- Supabase CLI 3.0.0 installed 2026-11-07 as a dev dependency (`npx supabase`). Live DB checked same day via connector: active, 4 tables RLS on, 3 categories. Local stack works (Docker Desktop + `supabase/config.toml`, Postgres 17 like live): `npx supabase start`, then `npx supabase test db` → 20/20 pass 2026-11-07. Replaces CI while GitHub is locked.
 
 ## Next steps
 1. Slice 1 steps 1-2 DONE: app frame + email-link sign-in (route guard, sign out on Me). Waiting: Joee sets Supabase URL config + tests sign-in locally. Next: step 3 add habit.
