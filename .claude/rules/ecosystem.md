@@ -32,6 +32,9 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - `supabase`, `supabase-postgres-best-practices` (2026-10-10): official Supabase agent skills (installed via `npx skills add supabase/agent-skills`, pinned in `skills-lock.json`).
 - `screen-design` (2026-10-10): every screen as a clickable AR/EN, phone/desktop prototype in the approved style.
 
-## MCP / tools in use
-- Playwright MCP (official plugin, `@playwright/mcp`): drive the app in a real browser for UI tests. If it shows "failed to connect", restart the session (first `npx` download can time out).
+## MCP / tools in use (project `.mcp.json`, added 2026-11-07)
+- `supabase`: hosted Supabase MCP, scoped to our project, **read-only**. For checking tables, RLS, auth logs, advisors, docs. Schema changes still go only through migrations + GitHub integration. Needs one-time OAuth (`/mcp` → supabase → Authenticate).
+- `playwright`: `@playwright/mcp` pinned (0.0.84), uses installed Chrome. Drive the app for UI tests. If "failed to connect", restart the session.
+- `cloudflare`: Cloudflare API MCP. For the Workers deploy step and checking it. Needs one-time OAuth.
 - Built-in browser pane (Claude desktop app): fallback for visual checks.
+- Later: Expo MCP (`https://mcp.expo.dev/mcp`) when we do Android/iOS builds (needs Expo account; local tools need `expo-mcp` dev package, ask first).
