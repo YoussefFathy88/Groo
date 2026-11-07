@@ -29,3 +29,4 @@ Quality bar: this is production. Extra setup or tools are fine when they improve
 ## Logic and tests
 - Business logic (streaks, scoring, dates) lives in pure functions with unit tests.
 - Streak/date bugs are the #1 risk. Test day boundaries, timezones, and missed days.
+- UI changes: test them yourself in a real browser (Playwright MCP, else the built-in browser) before saying done. Check 390px + 1280px, Arabic + English, and the console for errors.

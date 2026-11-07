@@ -1,6 +1,6 @@
 # Groo: Progress (read first, every session)
 
-Last updated: 2026-10-11 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
+Last updated: 2026-11-07 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
 
 ## Where we are
 Plan: `docs/roadmap.md` (vertical slices, decided 2026-10-10).
@@ -19,6 +19,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - GitHub Actions: account locked due to a billing issue (confirmed). Joee to fix in GitHub Billing or contact GitHub Support. CI + DB tests don't run until then.
 - Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`, enabled 2026-10-10). **Live: 4 tables + 3 categories confirmed by Joee 2026-10-10.**
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
+- Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Playwright MCP for browser tests; rule added to recommend rules/skills/MCPs proactively.
 
 ## Next steps
 1. Slice 1 steps 1-2 DONE: app frame + email-link sign-in (route guard, sign out on Me). Waiting: Joee sets Supabase URL config + tests sign-in locally. Next: step 3 add habit.

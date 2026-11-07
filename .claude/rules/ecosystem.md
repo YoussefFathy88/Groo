@@ -8,6 +8,12 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - Joee corrects you on something a doc should have said → suggest a **rule** update (CLAUDE.md or `.claude/rules/`).
 - The same mistake twice → suggest a **rule**, or a hook if it must be enforced.
 - A rule that only matters for some files → suggest moving it into a path-scoped rule (`paths:` frontmatter).
+- A task you can't fully do or verify yourself (e.g. testing in a browser, reading logs, checking a live service) → suggest an **MCP server**, plugin, or tool that would let you do it. Joee wants you able to run all tests yourself.
+
+## Always recommend (Joee's request, 2026-11-07)
+- Proactively recommend rules, skills, MCP servers, plugins, and hooks that improve how we work. Don't wait to be asked.
+- Prefer official/well-known MCPs (e.g. Playwright, Supabase, Cloudflare). Say what it unlocks and its cost/risk in 1 line each.
+- If a connected MCP fails, say so, find the cause, and give the fix.
 
 ## How to suggest
 - At the end of your reply, add one short block:
@@ -25,3 +31,7 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 ## Created
 - `supabase`, `supabase-postgres-best-practices` (2026-10-10): official Supabase agent skills (installed via `npx skills add supabase/agent-skills`, pinned in `skills-lock.json`).
 - `screen-design` (2026-10-10): every screen as a clickable AR/EN, phone/desktop prototype in the approved style.
+
+## MCP / tools in use
+- Playwright MCP (official plugin, `@playwright/mcp`): drive the app in a real browser for UI tests. If it shows "failed to connect", restart the session (first `npx` download can time out).
+- Built-in browser pane (Claude desktop app): fallback for visual checks.
