@@ -82,6 +82,12 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |
 | 2026-10-09 | Daily target | Fixed categories have a set target (Prayer = 5, Quran = 1, Sport = 1). Custom habits pick 1-10 at creation. Fixed categories will power a global leaderboard later. |
 | 2026-10-09 | Personal history (M1) | Private, per habit: calendar of done days, monthly consistency %, best streak. Advanced filters and comparisons later (M2). |
+| 2026-11-09 | Add habit entry | "+" tile at the end of the Today grid; on empty Today it becomes a big "Add your first habit" button. |
+| 2026-11-09 | Template tap | 1 tap adds it: stay on the list, card pops with a check (can add several). Custom habit returns to Today with a short "Added!" message. No "Added!" screen / share card in Slice 1. |
+| 2026-11-09 | Template storage | Data file in the app (`src/data/templates.ts`). Changing it needs a deploy. |
+| 2026-11-09 | Data library | TanStack Query for loading/saving (caching, optimistic UI for logging). |
+| 2026-11-09 | Template habit name | Saved in the user's current language at add time; renamable later. |
+| 2026-11-09 | Add habit details | Brand green #15A655 (not canvas #1E9E57). Name max 30 chars in UI (DB allows 40). Habit color comes from its icon (no color column). Already-added templates show disabled. |
 | 2026-11-09 | Working mode | Joee = product owner. Claude splits work into subagents, returns only labeled DECISION / BLOCKER / ACCESS items, and always asks for missing access (MCPs, logins). Rule in `.claude/rules/collaboration.md`. |
 | 2026-10-09 | Unified logging | One place logs all habits (personal + shared). A shared habit is logged once and shows in every group it is shared with. |
 

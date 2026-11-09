@@ -25,6 +25,8 @@ Quality bar: this is production. Extra setup or tools are fine when they improve
 - Schema changes only through Supabase migrations in `supabase/migrations/`, with pgTAP tests in `supabase/tests/database/`. Ask before any migration.
 - Migrations reach the live DB only via Supabase's GitHub integration (push to the production branch; tests run in the Database GitHub Action) (this cloud session cannot reach supabase.co). Before writing SQL, load the `supabase-postgres-best-practices` skill.
 - Explicit GRANTs + RLS on every table (new Supabase projects may not expose tables by default).
+- `supabase/config.toml` is for the local stack only. Never add a `[remotes]` block with the live project ID: then Supabase would apply its Auth/API settings to production on push [Official, checked 2026-11-09]. Live Auth settings stay in the dashboard.
+- Local testing: `npx supabase start`, put the local URL + publishable key in `.env.local` (gitignored, overrides `.env`), sign in via Mailpit at http://127.0.0.1:54324. Delete `.env.local` after, so the app points at live again.
 
 ## Logic and tests
 - Business logic (streaks, scoring, dates) lives in pure functions with unit tests.

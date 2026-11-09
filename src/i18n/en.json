@@ -10,7 +10,54 @@
   "today": {
     "title": "Today",
     "emptyTitle": "Let's go!",
-    "emptyBody": "Soon you'll add your first habit and log it with one tap."
+    "emptyBody": "Add your first habit and log it with one tap.",
+    "addFirst": "Add your first habit",
+    "addTile": "Add habit",
+    "added": "Added! {{name}} is now part of your day.",
+    "loadError": "We couldn't load your habits.",
+    "retry": "Try again"
+  },
+  "addHabit": {
+    "title": "New habit",
+    "close": "Close",
+    "back": "Back",
+    "pickHint": "One tap and it is in",
+    "custom": "Make your own",
+    "customTitle": "Your own habit",
+    "preview": "Preview",
+    "previewName": "Your habit",
+    "nameLabel": "What is it called?",
+    "namePlaceholder": "e.g. Evening dhikr",
+    "nameHint": "Give your habit a name first",
+    "iconLabel": "Pick an icon",
+    "timesLabel": "Times per day?",
+    "timesHint": "e.g. 5 prayers = 5",
+    "less": "Less",
+    "more": "More",
+    "add": "Add it",
+    "adding": "Adding...",
+    "leaderboard": "On leaderboard",
+    "alreadyAdded": "Added",
+    "times_one": "Once a day",
+    "times_other": "{{n}} times a day",
+    "errors": {
+      "offline": "No internet right now. Check your connection and try again.",
+      "generic": "Something small went wrong. Try again."
+    },
+    "icons": {
+      "mosque": "Mosque",
+      "book": "Book",
+      "dumbbell": "Workout",
+      "read": "Reading",
+      "walk": "Walk",
+      "moon": "Sleep",
+      "drop": "Water",
+      "sun": "Sun",
+      "heart": "Heart",
+      "pen": "Pen",
+      "cap": "Study",
+      "leaf": "Leaf"
+    }
   },
   "me": {
     "title": "Me",

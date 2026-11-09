@@ -6,7 +6,7 @@ Status of each M1 screen. Designs live in the Claude Design canvas (see `style-g
 |---|---|---|
 | Home / logging grid | Approved 2026-10-10 | Prototype |
 | Check-in celebration (normal + milestone) | Draft in prototype | Prototype |
-| Add habit + icon picker + templates | Approved 2026-10-10 | Add habit |
+| Add habit + icon picker + templates | Approved 2026-10-10. **Built 2026-11-09** (1-tap templates, no "Added!" screen / share card in Slice 1; entry = "+" tile on Today) | Add habit |
 | Group view (feed, cheers, leaderboard) | Approved 2026-10-10 (as prototyped: phone tabs Today/Leaderboard, desktop side by side) | Group view |
 | Sign in (Google + email link) | Approved 2026-10-10 (logo to be replaced with the real one) | Sign in |
 | Create / join group | Not started | |
