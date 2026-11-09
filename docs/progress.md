@@ -1,6 +1,6 @@
 # Groo: Progress (read first, every session)
 
-Last updated: 2026-11-07 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
+Last updated: 2026-11-09 · Branch: `claude/keen-ride-3fn08i` · Keep this file under ~80 lines.
 
 ## Where we are
 Plan: `docs/roadmap.md` (vertical slices, decided 2026-10-10).
@@ -43,6 +43,7 @@ Other screens are designed at the start of the slice that needs them (see roadma
 - None right now.
 
 ## Working with Joee (reminders)
+- Joee = product owner (2026-11-09). Use subagents; report only labeled DECISION / BLOCKER / ACCESS items.
 - Compact, simple replies. Decide together with options + recommendation. Design decisions only with a visual/prototype.
 - Suggest rules/skills when work repeats (`.claude/rules/ecosystem.md`).
 - Update THIS file at the end of every step, and commit it.

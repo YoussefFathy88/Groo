@@ -82,6 +82,7 @@ Status: `DECIDED` build it · `PROPOSED` ask first · `OPEN` never pick, ask Joe
 | 2026-10-09 | Multi-count tap | Each tap adds +1 and fills a ring (e.g. 3/5). Long-press to correct. |
 | 2026-10-09 | Daily target | Fixed categories have a set target (Prayer = 5, Quran = 1, Sport = 1). Custom habits pick 1-10 at creation. Fixed categories will power a global leaderboard later. |
 | 2026-10-09 | Personal history (M1) | Private, per habit: calendar of done days, monthly consistency %, best streak. Advanced filters and comparisons later (M2). |
+| 2026-11-09 | Working mode | Joee = product owner. Claude splits work into subagents, returns only labeled DECISION / BLOCKER / ACCESS items, and always asks for missing access (MCPs, logins). Rule in `.claude/rules/collaboration.md`. |
 | 2026-10-09 | Unified logging | One place logs all habits (personal + shared). A shared habit is logged once and shows in every group it is shared with. |
 
 ## Open: must close before coding (from PRD)

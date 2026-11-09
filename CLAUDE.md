@@ -5,7 +5,7 @@ Not a normal habit tracker. Encouraging, "healthy Snapchat vibes", never competi
 Solo developer: Joee. Launch: public web beta for his Arabic YouTube audience.
 
 ## Top 3 rules (always)
-1. **Decide together.** Never decide alone. Ask Joee with options + a recommendation. See `.claude/rules/collaboration.md`
+1. **Decide together.** Joee is product owner. Split work into subagents; come back only with labeled `DECISION` / `BLOCKER` / `ACCESS` items. Never decide important things alone. See `.claude/rules/collaboration.md`
 2. **Compact replies.** Short, simple, clear. Answer first. See the response style in the same file.
 3. **Improve the ecosystem.** Spot repeated work and propose a rule or skill. See `.claude/rules/ecosystem.md`
 
