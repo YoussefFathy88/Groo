@@ -16,7 +16,7 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 
 ## In progress
 - First migration `supabase/migrations/20261010120000_personal_core.sql` (profiles, categories, habits, check_ins + RLS). 20 pgTAP tests pass on local Postgres 16 with a stub auth schema; CI runs them on real Supabase.
-- GitHub Actions: account locked due to a billing issue (confirmed). Joee to fix in GitHub Billing or contact GitHub Support. CI + DB tests don't run until then.
+- GitHub Actions: billing-locked. **Skipped by Joee 2026-11-11**: local testing is the gate (unit + `supabase test db` + skill `local-e2e`) before every push.
 - Migrations now deploy via Supabase GitHub integration (connected by Joee, production branch `claude/keen-ride-3fn08i`, enabled 2026-10-10). **Live: 4 tables + 3 categories confirmed by Joee 2026-10-10.**
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 - Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Project `.mcp.json`: Supabase (read-only, project-scoped), Playwright, Cloudflare. Supabase + Cloudflare need one-time OAuth by Joee. Joee also connected Expo MCP + Supabase connector (account-level, both working). Rule added to recommend rules/skills/MCPs proactively.

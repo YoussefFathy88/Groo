@@ -31,6 +31,7 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 ## Created
 - `supabase`, `supabase-postgres-best-practices` (2026-10-10): official Supabase agent skills (installed via `npx skills add supabase/agent-skills`, pinned in `skills-lock.json`).
 - `screen-design` (2026-10-10): every screen as a clickable AR/EN, phone/desktop prototype in the approved style.
+- `local-e2e` (2026-11-11): full end-to-end test on the local Supabase stack with Playwright (sign-in via Mailpit, AR/EN, 390/1280, console, cleanup). Replaces GitHub CI.
 
 ## MCP / tools in use (project `.mcp.json`, added 2026-11-07)
 - `supabase`: hosted Supabase MCP, scoped to our project, **read-only**. For checking tables, RLS, auth logs, advisors, docs. Schema changes still go only through migrations + GitHub integration. Needs one-time OAuth (`/mcp` → supabase → Authenticate).
