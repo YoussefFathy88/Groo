@@ -15,6 +15,12 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - Prefer official/well-known MCPs (e.g. Playwright, Supabase, Cloudflare). Say what it unlocks and its cost/risk in 1 line each.
 - If a connected MCP fails, say so, find the cause, and give the fix.
 
+## Installs for automation (Joee's rule, 2026-11-11)
+- **Pre-approved:** install any dev tool that lets Claude work and test on its own: CLIs, MCP servers, dev-only npm packages, Docker images, browsers for testing. Only from official/well-known sources. Just do it and mention it in one line.
+- **Still a `DECISION`:** app libraries that ship in the app bundle (they shape the product and its size), anything paid, anything that writes to live services or needs Joee's account.
+- Log each install in the "MCP / tools in use" list below.
+- **Global installs must run in Joee's Terminal panel** (`run_in_terminal`), not the Bash/PowerShell tool: that tool is sandboxed, so files outside the project folder never reach the real system (found 2026-11-11). Project-folder installs (`npm install -D`, `npx expo install`) work from either.
+
 ## How to suggest
 - At the end of your reply, add one short block:
   `Ecosystem idea: <skill/rule name>. Does: <1 line>. Why: <1 line>. Create it?`
@@ -40,4 +46,5 @@ Goal: every repeated discussion or correction should become a rule or a skill, s
 - Built-in browser pane (Claude desktop app): fallback for visual checks.
 - Expo MCP (connected by Joee 2026-11-07, account-level): docs, EAS builds, store data. Local tools (screenshots, taps) need the `expo-mcp` dev package, ask first. Sandbox/simulator tools are billed: never start them without asking.
 - Supabase claude.ai connector (connected by Joee 2026-11-07, account-level): **full access** (migrations, pause, delete branch). Use only read tools (`list_tables`, `get_advisors`, `get_logs`, `search_docs`, `execute_sql` for SELECT). Any write: ask Joee first. Schema still only via migrations + GitHub.
+- Claude Code CLI 2.1.322 (installed globally via npm in the Terminal panel 2026-11-11): `claude` in a terminal for `/mcp` sign-ins and interactive-only commands.
 - If Supabase says "database not accessible": check `get_project`. `INACTIVE` = free plan paused after ~7 idle days. Ask Joee before restoring.
