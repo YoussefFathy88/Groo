@@ -21,9 +21,10 @@ Now: **Slice 1: personal core loop**, "Before" items. Phase 0 done.
 - Supabase client: `src/lib/supabase.ts`, values in `.env`. Avatar style: Avataaars, 20 ready-made.
 - Local dev on Windows set up 2026-11-07 (npm ci, typecheck/lint/58 tests green). Project `.mcp.json`: Supabase (read-only, project-scoped), Playwright, Cloudflare. Supabase + Cloudflare need one-time OAuth by Joee. Joee also connected Expo MCP + Supabase connector (account-level, both working). Rule added to recommend rules/skills/MCPs proactively.
 - Supabase CLI 3.0.0 installed 2026-11-07 as a dev dependency (`npx supabase`). Live DB checked same day via connector: active, 4 tables RLS on, 3 categories. Local stack works (Docker Desktop + `supabase/config.toml`, Postgres 17 like live): `npx supabase start`, then `npx supabase test db` → 20/20 pass 2026-11-07. Replaces CI while GitHub is locked. Pushing `config.toml` is safe (no `[remotes]` block; rule in engineering.md).
+- Tools ready 2026-11-11: Claude CLI (logged in), `/mcp` cloudflare + supabase authenticated (load in new sessions), GitHub CLI logged in as YoussefFathy88 (Claude handles PRs). Dev-tool installs pre-approved (ecosystem.md).
 
 ## Next steps
-1. Slice 1 steps 1-3 DONE: app frame, email-link sign-in, **add habit** (2026-11-09: 8 templates 1-tap, custom name + 12 icons + 1-10 times, Today grid + "+" tile, TanStack Query, 70 unit tests, browser-tested AR/EN 390/1280 on local Supabase). Waiting: Joee sets live Supabase URL config + tests sign-in. Next: step 4 one-tap logging (tap = +1, ring, undo, day switcher).
+1. Slice 1 steps 1-3 DONE: app frame, email-link sign-in, **add habit** (2026-11-09: 8 templates 1-tap, custom name + 12 icons + 1-10 times, Today grid + "+" tile, TanStack Query, 70 unit tests, browser-tested AR/EN 390/1280 on local Supabase). **Live verified 2026-11-11**: Joee signed in on live Supabase (URL config: Site URL + redirect `http://localhost:8081/**`), profile auto-created, 4 habits saved. Next: step 4 one-tap logging (tap = +1, ring, undo, day switcher).
 2. Gate before first audience test (roadmap): domain, Brevo (300/day free), 6-digit code, Google sign-in.
 3. Before Slice 1 goes live: create `main`, switch Supabase production branch to `main`, work via PRs.
 4. Build Slice 1 (sign-in, add habit, logging, feedback, AR/EN) and deploy to Cloudflare Workers.
